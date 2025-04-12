@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+  <f href="EPoA_Form.pdf"/>
+  <fields>
+    <field name="AttorneyAddress">
+      <value>[[AttorneyAddress]]</value>
+    </field>
+    <field name="AttorneyAddress0">
+      <value>[[AttorneyAddress0]]</value>
+    </field>
+    <field name="AttorneyAddress1">
+      <value>[[AttorneyAddress1]]</value>
+    </field>
+    <field name="AttorneyAddress2">
+      <value>[[AttorneyAddress2]]</value>
+    </field>
+    <field name="AttorneyAddress3">
+      <value>[[AttorneyAddress3]]</value>
+    </field>
+    <field name="AttorneyAddress4">
+      <value>[[AttorneyAddress4]]</value>
+    </field>
+    <field name="AttorneyName">
+      <value>[[AttorneyName]]</value>
+    </field>
+    <field name="AttorneyName0">
+      <value>[[AttorneyName0]]</value>
+    </field>
+    <field name="AttorneyName1">
+      <value>[[AttorneyName1]]</value>
+    </field>
+    <field name="AttorneyName2">
+      <value>[[AttorneyName2]]</value>
+    </field>
+    <field name="AttorneyName3">
+      <value>[[AttorneyName3]]</value>
+    </field>
+    <field name="AttorneyName4">
+      <value>[[AttorneyName4]]</value>
+    </field>
+    <field name="PrincipalAddress">
+      <value>[[PrincipalAddress]]</value>
+    </field>
+    <field name="PrincipalName">
+      <value>[[PrincipalName]]</value>
+    </field>
+    <field name="PrincipalAddress0">
+      <value>[[PrincipalAddress0]]</value>
+    </field>
+    <field name="PrincipalName0">
+      <value>[[PrincipalName0]]</value>
+    </field>
+    <field name="PrincipalAddress1">
+      <value>[[PrincipalAddress1]]</value>
+    </field>
+    <field name="PrincipalName1">
+      <value>[[PrincipalName1]]</value>
+    </field>
+    <field name="AttorneyList">
+      <value>[[AttorneyList]]</value>
+    </field>
+    <field name="Attorney1">
+      <value>[[Attorney1]]</value>
+    </field>
+    <field name="Attorney2">
+      <value>[[Attorney2]]</value>
+    </field>
+    <field name="AttorneyAddressStreet1">
+      <value>[[AttorneyAddressStreet1]]</value>
+    </field>
+    <field name="AttorneyAddressStreet2">
+      <value>[[AttorneyAddressStreet2]]</value>
+    </field>
+    <field name="AttorneyAddressSuburb1">
+      <value>[[AttorneyAddressSuburb1]]</value>
+    </field>
+    <field name="AttorneyAddressSuburb2">
+      <value>[[AttorneyAddressSuburb2]]</value>
+    </field>
+    <field name="AttorneyAddressState1">
+      <value>[[AttorneyAddressState1]]</value>
+    </field>
+    <field name="AttorneyAddressState2">
+      <value>[[AttorneyAddressState2]]</value>
+    </field>
+    <field name="AttorneyAddressPostcode1">
+      <value>[[AttorneyAddressPostcode1]]</value>
+    </field>
+    <field name="AttorneyAddressPostcode2">
+      <value>[[AttorneyAddressPostcode2]]</value>
+    </field>
+    <field name="PrincipalAddressStreet">
+      <value>[[PrincipalAddressStreet]]</value>
+    </field>
+    <field name="PrincipalAddressSuburb">
+      <value>[[PrincipalAddressSuburb]]</value>
+    </field>
+    <field name="PrincipalAddressState">
+      <value>[[PrincipalAddressState]]</value>
+    </field>
+    <field name="PrincipalAddressPostcode">
+      <value>[[PrincipalAddressPostcode]]</value>
+    </field>
+  </fields>
+</xfdf>

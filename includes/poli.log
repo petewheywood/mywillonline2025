@@ -1,0 +1,1512 @@
+
+[Thu Sep 7 15:46:57 AEST 2017] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => 19c4a418-892a-4b7d-8619-a6099b9db878
+    [MerchantEstablishedDateTime] => 2017-09-07T15:46:13.913
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 120.150.158.145
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996137432197
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2017-09-07T15:46:13.94
+    [StartDateTime] => 2017-09-07T15:46:13.94
+    [EndDateTime] => 2017-09-07T15:46:57.647
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 206240-5507281
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Thu Sep 7 15:48:16 AEST 2017] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => 0e421624-49e2-4f24-a4ac-6109192f04ab
+    [MerchantEstablishedDateTime] => 2017-09-07T15:48:11.567
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 120.150.158.145
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996137432257
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 53.97
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2017-09-07T15:48:11.58
+    [StartDateTime] => 2017-09-07T15:48:11.58
+    [EndDateTime] => 2017-09-07T15:48:16.44
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 206240-0207283
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Sun Sep 10 10:25:28 AEST 2017] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => 9cba3c62-ea73-4a03-99e5-f78136cf594e
+    [MerchantEstablishedDateTime] => 2017-09-10T09:55:01.073
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => TimedOut
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 120.150.158.145
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996137516782
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2017-09-10T09:55:01.077
+    [StartDateTime] => 2017-09-10T09:55:01.077
+    [EndDateTime] => 2017-09-10T10:25:26.6
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => TimedOut
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 206240-5510038
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Thu Dec 21 12:35:10 AEDT 2017] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => CBA
+    [TransactionID] => ae20fb67-0f39-4ec3-bf67-dedf87cd796f
+    [MerchantEstablishedDateTime] => 2017-12-21T12:33:54.763
+    [PayerAccountNumber] => 13738326
+    [PayerAccountSortCode] => 062000
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 203.206.174.97
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996141110302
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 89.95
+    [EstablishedDateTime] => 2017-12-21T12:33:54.767
+    [StartDateTime] => 2017-12-21T12:33:54.767
+    [EndDateTime] => 2017-12-21T12:35:08.023
+    [BankReceipt] => N122174442019
+    [BankReceiptDateTime] => Thursday 21 Dec 2017 at 12:34pm Sydney/Melbourne time
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => CBA
+    [FinancialInstitutionName] => Commonwealth Bank
+    [MerchantReference] => 208955-4421106
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => PAUL
+    [PayerAccountSuffix] => 
+)
+
+[Sun Jan 14 23:09:20 AEDT 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => CBA
+    [TransactionID] => 3876c14e-86fb-41c7-a248-b2c13944574b
+    [MerchantEstablishedDateTime] => 2018-01-14T23:08:43.623
+    [PayerAccountNumber] => 10018646
+    [PayerAccountSortCode] => 062298
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 103.253.126.6
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996141873096
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 89.95
+    [EstablishedDateTime] => 2018-01-14T23:08:43.627
+    [StartDateTime] => 2018-01-14T23:08:43.627
+    [EndDateTime] => 2018-01-14T23:09:19.027
+    [BankReceipt] => N011484472368
+    [BankReceiptDateTime] => Sunday 14 Jan 2018 at 11:09pm Sydney/Melbourne time
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => CBA
+    [FinancialInstitutionName] => Commonwealth Bank
+    [MerchantReference] => 209099-3514547
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => KURT
+    [PayerAccountSuffix] => 
+)
+
+[Mon Mar 5 20:00:15 AEDT 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => CBA
+    [TransactionID] => 1847b05c-37f1-4ed9-8b86-7f66ca003d37
+    [MerchantEstablishedDateTime] => 2018-03-05T19:33:06.27
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => TimedOut
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 211.28.59.178
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996143628596
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2018-03-05T19:33:06.283
+    [StartDateTime] => 2018-03-05T19:33:06.283
+    [EndDateTime] => 2018-03-05T20:00:12.43
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => TimedOut
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => CBA
+    [FinancialInstitutionName] => Commonwealth Bank
+    [MerchantReference] => 209438-5405397
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Sat Mar 31 19:48:15 AEDT 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => StGeorge
+    [TransactionID] => 72eb1aad-fc1b-402b-b6bc-d8de4e79f912
+    [MerchantEstablishedDateTime] => 2018-03-31T19:46:29.457
+    [PayerAccountNumber] => 120158558
+    [PayerAccountSortCode] => 112879
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 122.111.70.29
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996144467833
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 53.97
+    [AmountPaid] => 53.97
+    [EstablishedDateTime] => 2018-03-31T19:46:29.463
+    [StartDateTime] => 2018-03-31T19:46:29.463
+    [EndDateTime] => 2018-03-31T19:48:13.423
+    [BankReceipt] => I 1198 6379
+    [BankReceiptDateTime] => 31/03/2018 07:48 PM AEST
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => StGeorge
+    [FinancialInstitutionName] => St.George Bank
+    [MerchantReference] => 209385-4831398
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => PAUL
+    [PayerFamilyName] => BELLEVILLE
+    [PayerAccountSuffix] => 
+)
+
+[Sun Apr 29 17:23:57 AEST 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => NAB
+    [TransactionID] => 9e4d031e-64ed-4f4b-9380-ea8c22b0774f
+    [MerchantEstablishedDateTime] => 2018-04-29T17:23:19.283
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 172.196.64.208
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996145348082
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 149.9
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2018-04-29T17:23:19.293
+    [StartDateTime] => 2018-04-29T17:23:19.293
+    [EndDateTime] => 2018-04-29T17:23:57.427
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => NAB
+    [FinancialInstitutionName] => NAB
+    [MerchantReference] => 209559-1029349
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Sun Apr 29 17:24:51 AEST 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => NAB
+    [TransactionID] => f60defc5-1f7a-4ef2-9a6a-915917cc29ea
+    [MerchantEstablishedDateTime] => 2018-04-29T17:24:21.923
+    [PayerAccountNumber] => 129827164
+    [PayerAccountSortCode] => 083251
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 172.196.64.208
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996145348104
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.94
+    [AmountPaid] => 89.94
+    [EstablishedDateTime] => 2018-04-29T17:24:21.927
+    [StartDateTime] => 2018-04-29T17:24:21.927
+    [EndDateTime] => 2018-04-29T17:24:50.6
+    [BankReceipt] => Z7644158565
+    [BankReceiptDateTime] => 29/04/18
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => NAB
+    [FinancialInstitutionName] => NAB
+    [MerchantReference] => 209559-1529350
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Wed May 2 22:05:19 AEST 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => f652af2c-5cc6-44f9-8b97-8c1e283acc99
+    [MerchantEstablishedDateTime] => 2018-05-02T21:37:38.76
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => TimedOut
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 60.225.160.91
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996145460663
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2018-05-02T21:37:38.77
+    [StartDateTime] => 2018-05-02T21:37:38.77
+    [EndDateTime] => 2018-05-02T22:05:16.84
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => TimedOut
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 209718-3602525
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Sat May 5 20:22:28 AEST 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => ANZ
+    [TransactionID] => 79258fa3-8c25-4ba9-a0ab-7d4d03060883
+    [MerchantEstablishedDateTime] => 2018-05-05T20:21:17.89
+    [PayerAccountNumber] => 904987397
+    [PayerAccountSortCode] => 012291
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 141.168.235.151
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996145559206
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 89.95
+    [EstablishedDateTime] => 2018-05-05T20:21:17.9
+    [StartDateTime] => 2018-05-05T20:21:17.9
+    [EndDateTime] => 2018-05-05T20:22:25.673
+    [BankReceipt] => 566239
+    [BankReceiptDateTime] => 05/05/2018
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => ANZ
+    [FinancialInstitutionName] => ANZ
+    [MerchantReference] => 209732-0005472
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Sun Sep 23 14:49:21 AEST 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => 86c74aa6-d7b8-4420-ba4a-c5ee391e1f25
+    [MerchantEstablishedDateTime] => 2018-09-23T14:48:34.523
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 110.32.102.14
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996150333139
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 119.92
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2018-09-23T14:48:34.533
+    [StartDateTime] => 2018-09-23T14:48:34.533
+    [EndDateTime] => 2018-09-23T14:49:21.113
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 209011-3723241
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Tue Oct 2 15:18:26 AEST 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => Westpac
+    [TransactionID] => cf797865-f340-44fe-bc6e-8115c39779b9
+    [MerchantEstablishedDateTime] => 2018-10-02T15:17:51.09
+    [PayerAccountNumber] => 514362
+    [PayerAccountSortCode] => 733665
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 163.232.203.49
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996150645497
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 89.95
+    [EstablishedDateTime] => 2018-10-02T15:17:51.093
+    [StartDateTime] => 2018-10-02T15:17:51.093
+    [EndDateTime] => 2018-10-02T15:18:23.647
+    [BankReceipt] => 8be78504
+    [BankReceiptDateTime] => 2 Oct 2018
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => Westpac
+    [FinancialInstitutionName] => Westpac
+    [MerchantReference] => 210289-4202262
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => BEN
+    [PayerFamilyName] => KELLY
+    [PayerAccountSuffix] => 
+)
+
+[Fri Oct 12 9:53:00 AEDT 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => CBA
+    [TransactionID] => 85e47169-d7be-4406-8976-73baf534c004
+    [MerchantEstablishedDateTime] => 2018-10-12T09:51:00.003
+    [PayerAccountNumber] => 12078493
+    [PayerAccountSortCode] => 062799
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 120.22.88.170
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996150979389
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 149.9
+    [AmountPaid] => 149.9
+    [EstablishedDateTime] => 2018-10-12T09:51:00.01
+    [StartDateTime] => 2018-10-12T09:51:00.01
+    [EndDateTime] => 2018-10-12T09:52:56.553
+    [BankReceipt] => N101284659895
+    [BankReceiptDateTime] => Friday 12 Oct 2018 at 9:52am Sydney/Melbourne time
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => CBA
+    [FinancialInstitutionName] => Commonwealth Bank
+    [MerchantReference] => 208723-0512993
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => ELIZABETH
+    [PayerAccountSuffix] => 
+)
+
+[Tue Nov 27 18:59:31 AEDT 2018] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => 6d42ff59-4162-4565-b2f8-6e316d82d918
+    [MerchantEstablishedDateTime] => 2018-11-27T18:59:11.293
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 58.163.150.63
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996152682465
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 149.9
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2018-11-27T18:59:11.32
+    [StartDateTime] => 2018-11-27T18:59:11.32
+    [EndDateTime] => 2018-11-27T18:59:30.793
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 210454-5927374
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Thu Mar 14 17:50:48 AEDT 2019] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => a2d98466-931a-4cbc-8060-42623bb43245
+    [MerchantEstablishedDateTime] => 2019-03-14T17:20:10.057
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => TimedOut
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 203.174.139.198
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996156557833
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 119.92
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2019-03-14T17:20:10.063
+    [StartDateTime] => 2019-03-14T17:20:10.063
+    [EndDateTime] => 2019-03-14T17:50:41.653
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => TimedOut
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 210766-0614305
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Sat Apr 13 15:53:28 AEST 2019] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => CBA
+    [TransactionID] => cbabe534-68b0-47b5-91e4-ee765c9cc5ae
+    [MerchantEstablishedDateTime] => 2019-04-13T15:51:26.71
+    [PayerAccountNumber] => 10797810
+    [PayerAccountSortCode] => 064430
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 1.136.106.206
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996157711644
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 89.95
+    [EstablishedDateTime] => 2019-04-13T15:51:26.723
+    [StartDateTime] => 2019-04-13T15:51:26.723
+    [EndDateTime] => 2019-04-13T15:53:27.743
+    [BankReceipt] => N041393160981
+    [BankReceiptDateTime] => Saturday 13 Apr 2019 at 3:52pm Sydney/Melbourne time
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => CBA
+    [FinancialInstitutionName] => Commonwealth Bank
+    [MerchantReference] => 210933-1313285
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => RACHEL
+    [PayerAccountSuffix] => 
+)
+
+[Thu May 2 11:10:53 AEST 2019] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => CBA
+    [TransactionID] => f5c09846-3555-4781-956e-f6ab6f1ab3a7
+    [MerchantEstablishedDateTime] => 2019-05-02T11:09:35.343
+    [PayerAccountNumber] => 12440484
+    [PayerAccountSortCode] => 062006
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 49.176.174.27
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996158373630
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 89.95
+    [EstablishedDateTime] => 2019-05-02T11:09:35.357
+    [StartDateTime] => 2019-05-02T11:09:35.357
+    [EndDateTime] => 2019-05-02T11:10:52.893
+    [BankReceipt] => N050292273464
+    [BankReceiptDateTime] => Thursday 02 May 2019 at 11:10am Sydney/Melbourne time
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => CBA
+    [FinancialInstitutionName] => Commonwealth Bank
+    [MerchantReference] => 210991-0702089
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => JIE
+    [PayerAccountSuffix] => 
+)
+
+[Fri May 10 17:30:24 AEST 2019] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => 81c47850-76fd-43ff-ba33-d3ffdc955ac4
+    [MerchantEstablishedDateTime] => 2019-05-10T17:30:04.96
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 1.143.90.250
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996158708627
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2019-05-10T17:30:04.97
+    [StartDateTime] => 2019-05-10T17:30:04.97
+    [EndDateTime] => 2019-05-10T17:30:23.7
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 211029-0310354
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Fri May 10 18:00:25 AEST 2019] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => 58613032-7fe6-47a8-8222-096391d162c7
+    [MerchantEstablishedDateTime] => 2019-05-10T17:30:45.98
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => TimedOut
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 1.143.90.250
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996158708659
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2019-05-10T17:30:45.983
+    [StartDateTime] => 2019-05-10T17:30:45.983
+    [EndDateTime] => 2019-05-10T18:00:21.527
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => TimedOut
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 211029-3310354
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Sat Jun 1 11:55:28 AEST 2019] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => 8dcf24ce-5197-4a11-8b28-689daaf3ecd5
+    [MerchantEstablishedDateTime] => 2019-06-01T11:27:24.41
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => TimedOut
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 101.187.217.89
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996159561149
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2019-06-01T11:27:24.447
+    [StartDateTime] => 2019-06-01T11:27:24.447
+    [EndDateTime] => 2019-06-01T11:55:27.3
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => TimedOut
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 209368-2001102
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Sat Jul 13 13:12:50 AEST 2019] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => StGeorge
+    [TransactionID] => 289c7c79-a486-4135-8a33-c7f3a2958f0d
+    [MerchantEstablishedDateTime] => 2019-07-13T13:12:05.703
+    [PayerAccountNumber] => 432724361
+    [PayerAccountSortCode] => 112879
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 31.14.74.40
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996161269814
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 89.95
+    [EstablishedDateTime] => 2019-07-13T13:12:05.707
+    [StartDateTime] => 2019-07-13T13:12:05.707
+    [EndDateTime] => 2019-07-13T13:12:50.033
+    [BankReceipt] => I 1137 6923
+    [BankReceiptDateTime] => 13/07/2019 01:12 PM AEST
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => StGeorge
+    [FinancialInstitutionName] => St.George Bank
+    [MerchantReference] => 211190-5113174
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => ALEXANDER
+    [PayerFamilyName] => TURNER
+    [PayerAccountSuffix] => 
+)
+
+[Sat Aug 3 9:49:24 AEST 2019] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => CBA
+    [TransactionID] => e073e723-be94-4322-90a8-1b9577c5a0be
+    [MerchantEstablishedDateTime] => 2019-08-03T09:48:47.41
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 101.187.217.89
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996162131103
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2019-08-03T09:48:47.413
+    [StartDateTime] => 2019-08-03T09:48:47.413
+    [EndDateTime] => 2019-08-03T09:49:23.94
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => CBA
+    [FinancialInstitutionName] => Commonwealth Bank
+    [MerchantReference] => 201835-4003033
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Sun Sep 1 18:01:45 AEST 2019] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => CBA
+    [TransactionID] => 537ae00c-011b-41e5-80f5-f452e91cb553
+    [MerchantEstablishedDateTime] => 2019-09-01T17:53:48.853
+    [PayerAccountNumber] => 19131515
+    [PayerAccountSortCode] => 062948
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 58.84.106.223
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996163367400
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 149.9
+    [AmountPaid] => 149.9
+    [EstablishedDateTime] => 2019-09-01T17:53:48.863
+    [StartDateTime] => 2019-09-01T17:53:48.863
+    [EndDateTime] => 2019-09-01T18:01:45.187
+    [BankReceipt] => N090192761347
+    [BankReceiptDateTime] => Sunday 01 Sep 2019 at 6:01pm Sydney/Melbourne time
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => CBA
+    [FinancialInstitutionName] => Commonwealth Bank
+    [MerchantReference] => 211383-0601370
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => BRADLEY
+    [PayerAccountSuffix] => 
+)
+
+[Mon Sep 30 10:15:49 AEST 2019] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => ANZ
+    [TransactionID] => 334631d0-0d97-498b-8c20-7012ad0f0e40
+    [MerchantEstablishedDateTime] => 2019-09-30T10:12:24.393
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 59.102.74.7
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996164599619
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 53.97
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2019-09-30T10:12:24.4
+    [StartDateTime] => 2019-09-30T10:12:24.4
+    [EndDateTime] => 2019-09-30T10:15:48.853
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => ANZ
+    [FinancialInstitutionName] => ANZ
+    [MerchantReference] => 211397-0630050
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Thu Mar 26 9:07:55 AEDT 2020] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => Westpac
+    [TransactionID] => 092f8dc2-f2e3-4f2a-ab95-94706c9ce7a7
+    [MerchantEstablishedDateTime] => 2020-03-26T09:07:03.86
+    [PayerAccountNumber] => 646345
+    [PayerAccountSortCode] => 734033
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 49.182.46.241
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996172379334
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 89.95
+    [EstablishedDateTime] => 2020-03-26T09:07:03.897
+    [StartDateTime] => 2020-03-26T09:07:03.897
+    [EndDateTime] => 2020-03-26T09:07:55.39
+    [BankReceipt] => 7ce44d0c
+    [BankReceiptDateTime] => 26 Mar 2020
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => Westpac
+    [FinancialInstitutionName] => Westpac
+    [MerchantReference] => 212083-4326962
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => LUAY
+    [PayerFamilyName] => MATLOOB
+    [PayerAccountSuffix] => 
+)
+
+[Mon Apr 27 12:16:29 AEST 2020] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => 6f7373c0-fbed-40d7-af95-29445f577aa4
+    [MerchantEstablishedDateTime] => 2020-04-27T12:16:00.363
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 101.187.217.89
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996173628074
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2020-04-27T12:16:00.407
+    [StartDateTime] => 2020-04-27T12:16:00.407
+    [EndDateTime] => 2020-04-27T12:16:28.863
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 204906-3827135
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Thu Jun 11 19:26:21 AEST 2020] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => Westpac
+    [TransactionID] => 0b0a0c3e-5803-4440-bb24-161f3e463d6e
+    [MerchantEstablishedDateTime] => 2020-06-11T19:25:05.923
+    [PayerAccountNumber] => 610469
+    [PayerAccountSortCode] => 736014
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 115.70.22.144
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996175954530
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 89.95
+    [EstablishedDateTime] => 2020-06-11T19:25:05.99
+    [StartDateTime] => 2020-06-11T19:25:05.99
+    [EndDateTime] => 2020-06-11T19:26:20.633
+    [BankReceipt] => 0204bc2f
+    [BankReceiptDateTime] => 11 Jun 2020
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => Westpac
+    [FinancialInstitutionName] => Westpac
+    [MerchantReference] => 212568-5111433
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => SIMON
+    [PayerFamilyName] => LAURENSON
+    [PayerAccountSuffix] => 
+)
+
+[Thu Aug 13 12:11:04 AEST 2020] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => bcb2515b-e8a4-43cb-9f9b-9f84f3d63434
+    [MerchantEstablishedDateTime] => 2020-08-13T12:10:39.347
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 14.207.67.80
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996179337588
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 89.95
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2020-08-13T12:10:39.383
+    [StartDateTime] => 2020-08-13T12:10:39.383
+    [EndDateTime] => 2020-08-13T12:11:03.75
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 212869-3113132
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Wed Dec 30 15:17:55 AEDT 2020] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => BankOfMelbourne
+    [TransactionID] => d0a3a19b-b3b1-43af-a7a4-d8d214275b5c
+    [MerchantEstablishedDateTime] => 2020-12-30T15:16:52.753
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 49.185.20.193
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996187516351
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 200
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2020-12-30T15:16:52.763
+    [StartDateTime] => 2020-12-30T15:16:52.763
+    [EndDateTime] => 2020-12-30T15:17:55.21
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => BankOfMelbourne
+    [FinancialInstitutionName] => Bank of Melbourne
+    [MerchantReference] => 213276-4430219
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => JESSICA
+    [PayerFamilyName] => THORNTON
+    [PayerAccountSuffix] => 
+)
+
+[Thu Jan 21 10:10:09 AEDT 2021] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => BankSA
+    [TransactionID] => 90b4e318-80aa-4802-ad7d-984517c038ad
+    [MerchantEstablishedDateTime] => 2021-01-21T10:09:06.947
+    [PayerAccountNumber] => 060283440
+    [PayerAccountSortCode] => 105054
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 118.210.190.10
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996188765089
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 200
+    [AmountPaid] => 200
+    [EstablishedDateTime] => 2021-01-21T10:09:06.95
+    [StartDateTime] => 2021-01-21T10:09:06.95
+    [EndDateTime] => 2021-01-21T10:10:08.917
+    [BankReceipt] => I 0100 8230
+    [BankReceiptDateTime] => 21/01/2021 10:10 AM AEST
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => BankSA
+    [FinancialInstitutionName] => BankSA
+    [MerchantReference] => 209446-0021005
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => PAUL
+    [PayerFamilyName] => SCATENA
+    [PayerAccountSuffix] => 
+)
+
+[Sun Jan 24 8:10:38 AEDT 2021] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => 984172db-db94-4fff-8773-dbb59660fe8f
+    [MerchantEstablishedDateTime] => 2021-01-24T08:10:09.343
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 220.240.7.39
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996188931036
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 96
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2021-01-24T08:10:09.35
+    [StartDateTime] => 2021-01-24T08:10:09.35
+    [EndDateTime] => 2021-01-24T08:10:37.64
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 204906-0624922
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Mon Jan 25 14:46:06 AEDT 2021] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => BOQ
+    [TransactionID] => 2c7231c7-d7ed-4f99-88be-6a4422c417eb
+    [MerchantEstablishedDateTime] => 2021-01-25T14:45:22.4
+    [PayerAccountNumber] => 22409645
+    [PayerAccountSortCode] => 124001
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Completed
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 49.190.149.53
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996188990939
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 200
+    [AmountPaid] => 200
+    [EstablishedDateTime] => 2021-01-25T14:45:22.43
+    [StartDateTime] => 2021-01-25T14:45:22.43
+    [EndDateTime] => 2021-01-25T14:46:05.96
+    [BankReceipt] => 32204678
+    [BankReceiptDateTime] => 25/01/2021
+    [TransactionStatusCode] => Completed
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => BOQ
+    [FinancialInstitutionName] => Bank of Queensland
+    [MerchantReference] => 213329-5925197
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => jgreen_85@ymail.com
+    [PayerAccountSuffix] => 
+)
+
+[Thu Mar 4 12:12:04 AEDT 2021] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => CBA
+    [TransactionID] => f288b8b5-23f9-4885-89c9-6a2f801fb5d0
+    [MerchantEstablishedDateTime] => 2021-03-04T12:11:28.927
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 54.66.166.103
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996191679785
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 120
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2021-03-04T12:11:28.963
+    [StartDateTime] => 2021-03-04T12:11:28.963
+    [EndDateTime] => 2021-03-04T12:12:04.713
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => CBA
+    [FinancialInstitutionName] => Commonwealth Bank
+    [MerchantReference] => 213416-2404091
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Fri Mar 12 17:19:39 AEDT 2021] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => 
+    [TransactionID] => dca9c609-b24c-4ddf-9756-64b2c0d66627
+    [MerchantEstablishedDateTime] => 2021-03-12T17:19:07.243
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 54.66.166.103
+    [POLiVersionCode] =>   
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996192202024
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 96
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2021-03-12T17:19:07.423
+    [StartDateTime] => 2021-03-12T17:19:07.423
+    [EndDateTime] => 2021-03-12T17:19:39.503
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => 
+    [FinancialInstitutionName] => 
+    [MerchantReference] => 204906-5712304
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => 
+    [PayerFamilyName] => 
+    [PayerAccountSuffix] => 
+)
+
+[Fri Mar 19 19:03:59 AEDT 2021] The following data was received from POLi by /var/www/mwo/includes/nudge.php:
+Array
+(
+    [CountryName] => Australia
+    [FinancialInstitutionCountryCode] => CBA
+    [TransactionID] => 10c23dd6-0f2b-4ccd-ad1b-9a0134280cf1
+    [MerchantEstablishedDateTime] => 2021-03-19T18:59:23
+    [PayerAccountNumber] => 
+    [PayerAccountSortCode] => 
+    [MerchantAccountSortCode] => 062618
+    [MerchantAccountName] => My Will Online Aus
+    [MerchantData] => 
+    [CurrencyName] => Australian Dollar
+    [TransactionStatus] => Cancelled
+    [IsExpired] => 
+    [MerchantEntityID] => b6863240-a305-4404-ac05-cd0e0e764911
+    [UserIPAddress] => 203.63.170.226
+    [POLiVersionCode] => 4 
+    [MerchantName] => My Will Online Australia
+    [TransactionRefNo] => 996192669175
+    [CurrencyCode] => AUD
+    [CountryCode] => AU
+    [PaymentAmount] => 120
+    [AmountPaid] => 0
+    [EstablishedDateTime] => 2021-03-19T18:59:23.033
+    [StartDateTime] => 2021-03-19T18:59:23.033
+    [EndDateTime] => 2021-03-19T19:03:59.46
+    [BankReceipt] => 
+    [BankReceiptDateTime] => 
+    [TransactionStatusCode] => Cancelled
+    [ErrorCode] => 
+    [ErrorMessage] => 
+    [FinancialInstitutionCode] => CBA
+    [FinancialInstitutionName] => Commonwealth Bank
+    [MerchantReference] => 213447-0919374
+    [MerchantAccountSuffix] => 
+    [MerchantAccountNumber] => 10167043
+    [PayerFirstName] => Phillipa
+    [PayerFamilyName] => Turner
+    [PayerAccountSuffix] => 
+)

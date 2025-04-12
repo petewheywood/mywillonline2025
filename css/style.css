@@ -1,0 +1,1269 @@
+/* !Site specific */
+html,
+body {
+  height: 100%;
+  background-color: #fefefe;
+  line-height: 1.3;
+  color: #666;
+}
+body {
+  padding-top: 50px;
+}
+
+legend {
+  color: #555555;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+h1 {
+  font-weight: normal;
+}
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+#logo {
+  margin-left: 10px;
+}
+
+sup {
+  font-size: larger;
+  top: 1px;
+}
+
+.highlight {
+  color: green;	
+}
+
+.large {
+  font-size: larger;
+}
+
+.grey {
+  color: #777777;
+}
+
+.btn-group > .btn:focus {
+  outline: none;
+  border-color: none;
+  /*   box-shadow: 0 0 10px #9ecaed; */
+}
+
+.btn-social {
+  margin-top: 5px;
+}
+
+.btn-lr {
+  width: 200px;
+  border-radius: 25px !important;  
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+div.row > div.topmargin {
+  margin-top: 20px;
+}
+
+div.row div h1:first-child,
+div.row div h2:first-child,
+div.row div h3:first-child,
+div.row div h4:first-child,
+div.row div h5:first-child,
+div.row div h6:first-child {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.2em;
+}
+h4 {
+  font-size: 1.1em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 0.9em;
+}
+
+.modal-header {
+  background-color: #337ab7;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-header button.close {
+  color: white;
+  opacity: 0.5;
+}
+
+.modal-header button.close:hover {
+  opacity: 1;
+}
+
+#spacer {
+  height: 380px;
+}
+
+.sidebar {
+  /*
+  background-color: #dddddd;
+  box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.35);
+  border: 1px solid #ddd;
+*/
+  padding: 0 18px 18px 0;
+  margin-bottom: 20px;
+}
+
+.sidebar img {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+  border: black 1px solid;
+  margin-bottom: 5px;
+}
+
+/* dashed ul */
+ul.dash {
+  list-style-type: none;
+}
+ul.dash li:before {
+  content: '-';
+  position: relative;
+  left: -15px;
+}
+ul.dash li {
+  text-indent: -10px;
+}
+/* special list */
+ul.special {
+  list-style-type: none;
+}
+ul.special li:before {
+  font-family: 'Glyphicons Halflings';
+  float: left;
+  margin-left: -30px;
+}
+ul.special.check li:before {
+  content: '\e067';
+  color: #11870b;
+}
+ul.special.edit li:before {
+  content: '\e065';
+  color: #2317ad;
+}
+ul.special li {
+  margin: 10px 0;
+}
+
+a {
+  color: #099acb;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #099acb;
+  text-decoration: underline;
+}
+
+a.plain:hover {
+  text-decoration: none;
+}
+
+.popover-title {
+  color: #555555;
+}
+
+div.close {
+  position: relative;
+  top: -4px;
+}
+
+.fs-borders legend {
+  width: auto;
+  border: 0;
+  padding: 0 5px;
+}
+
+fieldset[disabled] .form-control {
+  color: #000000;
+}
+
+.form-control {
+  font-family: Arial;
+}
+
+/* make non-a elements have a pointer if they have data-toggle="collapse" */
+[data-toggle='collapse'],
+[data-toggle='popover'],
+[data-toggle='tooltip'] {
+  cursor: pointer;
+}
+
+/* pay buttons, etc */
+div#cc,
+div#poli {
+  border: #ddd 1px solid;
+  padding: 30px 30px 0;
+}
+
+div.paybtn {
+  height: 80px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+div.cba {
+  background: transparent url(../images/btn_commweb.png) no-repeat top center;
+  background-size: contain;
+  margin-top: -12px;
+  height: 65px;
+}
+div#cbabtn {
+  background: transparent url(../images/btn_commweb.png) no-repeat top center;
+}
+div#paypalbtn {
+  background: transparent url(../images/btn_paypal.png) no-repeat top center;
+}
+button#paypalbtn {
+  color: #002069;
+}
+button#paypalbtn img {
+  height: 17px;
+}
+div#cbabtn:hover,
+div#cbabtn:active {
+  background: transparent url(../images/btn_commweb_a.png) no-repeat top center;
+}
+div#paypalbtn:hover,
+div#paypalbtn:active {
+  background: transparent url(../images/btn_paypal_a.png) no-repeat top center;
+}
+div#polibtn {
+  background: transparent url(../images/btn_poli.png) no-repeat top center;
+}
+div#polibtn:hover,
+div#polibtn:active {
+  background: transparent url(../images/btn_poli_a.png) no-repeat top center;
+}
+
+div#learn_about_poli {
+  background: transparent url(../images/learn_about_poli.png) no-repeat top center;
+  height: 80px;
+  margin-top: 30px;
+}
+div#learn_about_poli:hover,
+div#learn_about_poli:active {
+  background: transparent url(../images/learn_about_poli_a.png) no-repeat top center;
+}
+
+input#ccnumber {
+  width: 185px;
+}
+input#ccexpiry {
+  width: 80px;
+}
+input#ccv2 {
+  width: 55px;
+}
+input#ccsubmit,
+input#polisubmit {
+  width: 150px;
+}
+
+/* disable transitions */
+/*
+.collapsing{
+    -webkit-transition: none;
+          transition: none;
+}
+*/
+
+/* Spinner */
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none;
+}
+
+#spinner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #444;
+  display: none;
+  z-index: 9999;
+  background-color: #ffffff;
+  border: 1px solid #aaa;
+  border-radius: 9px;
+  text-align: center;
+  box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+/* btn-groups have display: none for the input type=radio which breaks jquery validator - so make them inline but invisible */
+div.btn-group > .btn > input[type='radio'] {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: hidden;
+  visibility: hidden;
+}
+
+label.error {
+  display: inline;
+  background: url('../images/unchecked.gif') no-repeat;
+  padding-left: 16px;
+  margin-left: 0.3em;
+}
+
+a.assist,
+p.assistclause {
+  cursor: pointer;
+}
+
+p.assistclause:hover {
+  text-decoration: underline;
+}
+
+.alert-small {
+  padding: 5px;
+  margin: 0 100px 20px 100px !important;
+}
+
+/* popover-content override for font color */
+a[data-toggle='popover'],
+a[data-toggle='popover']:hover {
+  border-bottom: 1px dashed;
+  text-decoration: none;
+}
+
+.popover-content {
+  color: #666666;
+  font-weight: normal;
+}
+
+/* tables */
+th {
+  color: #888;
+}
+tr .currency {
+  text-align: right;
+  min-width: 80px;
+}
+
+th.total,
+td.total {
+  border-top-width: 1px !important;
+}
+.table > thead > tr > th {
+  border-bottom: 1px solid #ddd;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  border-top: 1px solid #dddddd;
+}
+
+.table.noborder > tbody > tr > td {
+  border-top: none;
+}
+.table.noborder > tbody > tr > td.border {
+  border-top: 1px solid #ddd;
+}
+
+/* multirow fieldset */
+div.rowitem,
+fieldset.rowitem,
+div.bordered {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+div.bordered h1,
+div.bordered h2,
+div.bordered h3 {
+  margin: 0 0 10px 0;
+}
+
+legend {
+  margin-bottom: 15px;
+}
+
+.rowitem legend {
+  border: none;
+  width: auto;
+  padding: 0 8px;
+  font-size: 16px;
+}
+
+.fs-borders {
+  margin-top: 20px;
+  padding: 10px 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+legend.alert {
+  padding: 5px 15px;
+  font-size: 18px;
+}
+
+div.panel-body fieldset {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.panel-default > .panel-heading {
+  background-image: none;
+}
+
+.panel-heading[data-toggle='collapse']:hover,
+.panel-heading[data-toggle='collapse']:active {
+  background-image: none;
+  background-color: #e0e0e0;
+}
+
+/* .btn overrides */
+.btn {
+  background-image: none;
+  border-radius: 2px;
+}
+
+.topborder {
+  border-top: 1px solid #ddd;
+}
+
+.leftborder {
+  border-left: 1px solid #ddd;
+}
+
+@media screen and (max-width: 767px) {
+  .leftborder {
+    border-left: none;
+  }
+}
+
+/* dump webkit spin buttons from number fields */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+/* order item list on home page */
+/* For modern browsers */
+.orderitem:before,
+.orderitem:after {
+  content: '';
+  display: table;
+}
+.orderitem:after {
+  clear: both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.orderitem {
+  zoom: 1;
+}
+.ordername,
+.orderproduct {
+  padding: 0 10px 0 0;
+  width: 33%;
+  float: left;
+}
+.orderbuttons {
+  text-align: right;
+  width: 33%;
+  float: left;
+}
+@media screen and (max-width: 767px) {
+  .ordername,
+  .orderproduct,
+  .orderbuttons {
+    float: none;
+    text-align: center;
+    padding: 0 0 5px 0;
+    width: auto;
+  }
+  .orderbuttons {
+    margin-top: 10px;
+  }
+}
+
+/* jumbotron font size when small */
+@media screen and (max-width: 827px) {
+  .jumbotron {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .jumbotron {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 605px) {
+  .jumbotron {
+    font-size: 16px;
+  }
+}
+
+/* popover title */
+.popover-title {
+  font-weight: bold;
+}
+
+/* FAQ questions and answers */
+.question {
+  cursor: pointer;
+}
+
+div.answer {
+  display: none;
+  padding: 0 20px 20px 20px;
+}
+
+/* error messages on form validation */
+span.error,
+label.error {
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #ff0000;
+}
+
+.ccalert {
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 30px;
+}
+
+/* popovers */
+/*
+a[data-toggle=popover] {
+	border-bottom: 1px dashed;
+}
+a[data-toggle=popover]:hover {
+  text-decoration: none;
+}
+*/
+
+/* menu divider */
+.divider {
+  height: 50px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .divider {
+    height: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+  }
+}
+
+/* Wrapper for page content to push down footer to keep it at bottom of window */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0px auto -350px;
+  /* Pad bottom by footer height */
+  padding: 0px 0 350px;
+}
+
+/* sticky footer setup */
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 50px;
+  background-color: #f5f5f5;
+  font-size: smaller;
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.5);
+}
+
+#footer .navbar {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+}
+
+#footer .navbar-inverse {
+  background-image: none;
+}
+
+#footer .navbar-nav > li > a {
+  padding: 0;
+  margin: 10px 10px;
+  line-height: inherit;
+}
+
+@media screen and (max-width: 480px) {
+  #footer {
+    height: 80px;
+  }
+}
+
+/* navbar overrides */
+#topmenu {
+  margin-right: 30px;
+}
+
+.navbar-toggle {
+  margin-right: 15px;
+}
+
+.navbar-brand {
+  padding-right: 5px;
+}
+
+.navbar-default {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(255, 255, 255, 0.95);
+  background-image: none;
+  box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0 !important;
+}
+.navbar-text {
+  margin: 15px 5px;
+}
+.navbar-brand {
+  float: right;
+}
+/* .navbar-brand.phonenumber, .navbar-brand.phonenumber:visited {
+  color: #09860C;
+}
+.navbar-brand.phonenumber:hover {
+  color: #E89208;
+} */
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-left: 0;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menutext {
+    display: inline-block;
+  }
+}
+
+/* small devices */
+@media (max-width: 400px) {
+  #logo {
+    width: 200px;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btn-xs {
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 2px 8px;
+  }
+}
+
+/* main footer area on homepage */
+#bottom {
+  background-color: #3c3c3c;
+  color: #aaaaaa;
+}
+
+#bottom a {
+  color: #d0d0d0;
+  text-decoration: none;
+}
+
+#bottom a:hover {
+  color: #ffffff;
+}
+
+#bottom h2 {
+  color: #6893be;
+  font-size: 130%;
+  margin-top: 30px;
+}
+
+#bottom em {
+  color: #ffffff;
+  font-style: normal;
+}
+
+@media screen and (max-width: 560px) {
+  h1 {
+    font-size: 1.6em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  h5 {
+    font-size: 0.9em;
+  }
+  h6 {
+    font-size: 0.7em;
+  }
+}
+
+/* feedback stars */
+form .stars {
+  background: url('../images/stars.png') repeat-x 0 0;
+  width: 150px;
+  display: inline-block;
+}
+
+form .stars input[type='radio'] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+form .stars input[type='radio'].star-5:checked ~ span {
+  width: 100%;
+}
+form .stars input[type='radio'].star-4:checked ~ span {
+  width: 80%;
+}
+form .stars input[type='radio'].star-3:checked ~ span {
+  width: 60%;
+}
+form .stars input[type='radio'].star-2:checked ~ span {
+  width: 40%;
+}
+form .stars input[type='radio'].star-1:checked ~ span {
+  width: 20%;
+}
+form .stars label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-indent: -999em;
+  float: left;
+  position: relative;
+  z-index: 10;
+  background: transparent !important;
+  cursor: pointer;
+}
+
+form .stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url('../images/stars.png') repeat-x 0 -60px;
+}
+
+form .stars ~ span.help-block {
+  position: relative;
+  top: -10px;
+  left: 20px;
+  display: inline;
+}
+
+.starsdesc {
+  opacity: 0.7;
+  padding: 0 0 30px 10px;
+}
+
+/* feedback section */
+
+div.feedback {
+  width: 95%;
+  width: 100%;
+  margin: 0 auto 10px auto;
+  padding: 5px;
+  opacity: 1;
+  position: relative;
+  min-height: 180px;
+}
+
+div.feedback .row div {
+  margin-bottom: 5px;
+}
+
+div.feedbackcomments {
+  overflow: auto;
+  text-overflow: ellipsis;
+  height: 100%;
+}
+
+div.feedback .row {
+  border: 1px solid #eee;
+  background-color: #ffffff;
+  border-radius: 0px;
+  padding: 10px 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  width: 99%;
+  margin: auto 0;
+}
+.home div.feedback .row {
+  position: absolute; /* needed so fade works properly */
+}
+
+div.feedback .row.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out 3s;
+  -o-transition: opacity ease-in-out 3s;
+  -webkit-transition: opacity ease-in-out 3s;
+  transition: opacity ease-in-out 3s;
+}
+
+div.feedback .row.inactive {
+  -moz-transition: opacity ease-in-out 3s;
+  -o-transition: opacity ease-in-out 3s;
+  -webkit-transition: opacity ease-in-out 3s;
+  transition: opacity ease-in-out 3s;
+  opacity: 0;
+}
+
+div.feedback .glyphicon {
+  color: #d5d5d5;
+}
+
+.panel-heading .glyphicon {
+  margin-top: 2px;
+  color: #999;
+}
+.panel-heading:hover .glyphicon {
+  color: #000;
+}
+
+.yellow {
+  color: #ffa30f !important;
+}
+@media screen and (max-width: 767px) {
+  div.feedback {
+    height: 265px;
+  }
+  div.feedback .row {
+    height: 90%;
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 499px) {
+  div.feedback {
+    height: 235px;
+  }
+  div.feedback .row {
+    height: 90%;
+    font-size: smaller;
+    overflow: auto;
+  }
+}
+
+/* modal content divs */
+#important,
+.showonclick {
+  display: none;
+}
+
+/* organisation image on start page */
+.orgimg {
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+blockquote {
+  margin-left: 40px;
+}
+
+.hilite {
+  color: #636363;
+  font-weight: bold;
+}
+
+/* comparison table */
+.glyphicon-ok {
+  color: #37ae37;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.glyphicon-remove {
+  color: #d04848;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Comparison table */
+#comparison {
+  font-size: 16px;
+  padding: 10px 5px;
+}
+
+#comparison .row {
+  margin: 0 auto;
+}
+
+#comparison .item h2 {
+  font-size: 18px;
+  margin: 0;
+  color: black;
+}
+
+#comparison .row > div {
+  display: table;
+  padding: 0 8px;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+  color: #777;
+  font-weight: 400;
+}
+
+#comparison .row > div .item {
+  height: 45px;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#comparison .row > div:first-child {
+  border-left: 1px solid #cccccc;
+  text-align: left;
+  color: #333333;
+  font-weight: normal;
+}
+#comparison .row.head div {
+  font-size: 18px;
+  font-weight: bold;
+  color: #5e5e5e;
+}
+
+#comparison .row.head > div {
+  border-top: 1px solid #cccccc;
+  background-color: #eeeeee;
+}
+
+#comparison .row.head > div:first-child {
+  text-align: center;
+  border-top-color: transparent;
+  border-left: none;
+  background-color: transparent;
+}
+
+#comparison .row.foot > div {
+  border-bottom: 1px solid #cccccc;
+  min-height: 30px;
+  font-size: 14px;
+}
+
+#comparison .row.foot > div:first-child {
+  border-bottom: none;
+  border-left: none;
+}
+
+@media (max-width: 768px) {
+  #comparison {
+    font-size: 12px;
+    position: relative;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+  #comparison .row > div {
+    padding: 0 15px;
+  }
+  #comparison .row > div .item {
+    height: 45px;
+  }
+  #comparison .item h2 {
+    font-size: 16px;
+  }
+  #comparison .row.head div {
+    font-size: 14px;
+  }
+  #comparison .row.head span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  #comparison .row > div .item {
+    height: 60px;
+    font-size: 11px;
+  }
+  #comparison .item h2,
+  #comparison .btn {
+    font-size: 12px;
+  }
+}
+
+/* leaders on home page */
+div.leader h2 {
+  height: 80px;
+}
+@media (max-width: 830px) {
+  div.leader h2 {
+    height: 110px;
+  }
+}
+@media (max-width: 767px) {
+  div.leader h2 {
+    height: auto;
+  }
+}
+
+/* home page faded section */
+#faded {
+  position: relative;
+  height: 900px;
+  overflow: hidden;
+}
+
+/* gradient */
+#gradient {
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 200px; /* adjust it to your needs */
+  background: url(data:image/svg+xml;base64,alotofcodehere);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 70%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(255, 255, 255, 0)),
+    color-stop(70%, rgba(255, 255, 255, 1))
+  );
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 70%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 70%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 70%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 70%);
+}
+#gradient h2 {
+  position: absolute;
+  bottom: 50%;
+  left: 35%;
+  display: block;
+  background-color: #e0e6f3;
+  color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  width: 35%;
+  box-shadow: 2px 2px 2px #aaa;
+}
+#gradient h2:hover {
+  background-color: #aebedf;
+}
+
+/* home page colours */
+.darkb {
+  color: white;
+  background-color: #505050;
+}
+
+/* set font to 16px - needed to stop mobile safari zooming when entering field*/
+.form-control {
+  font-size: 16px;
+}
+
+.narrow {
+  max-width: 750px !important;
+}
+
+/* hero on homepage */
+section.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+section.hero img {
+  width: 100%;
+}
+
+section.hero a {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+section.hero a:hover {
+  text-decoration: underline;
+}
+
+section.hero .scrolldown,
+section.hero .caption {
+  color: white;
+  position: absolute;
+  z-index: 10;
+  text-align: left;
+}
+
+section.hero .scrolldown {
+  bottom: 0;
+  width: 100%;
+  font-size: 2vw;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+section.hero .scrolldown a,
+section.hero .scrolldown a:hover {
+  color: inherit;
+}
+section.hero .caption {
+  right: 10%;
+  left: 10%;
+  top: 5%;
+}
+
+section.hero h1 {
+  font-size: 4vw;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+section.hero h2 {
+  font-size: 2vw;
+  margin-bottom: 2vw;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+section.hero .row div {
+  padding: 0;
+}
+section.hero .btn {
+  border-radius: 20px;
+  min-width: 150px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+section.container-fluid .container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 900px;
+}
+p.lvspace {
+  line-height: 1.8 !important;
+}
+
+.ltop {
+  margin-top: 75px !important;
+}
+
+#bottom div.footerlinks div {
+  padding-left: 5%;
+}
+
+#bottom div.row {
+  width: 95%;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+
+div.paytypes {
+  border-top: 2px groove rgba(121, 121, 121, 0.65);
+  padding: 10px 0;
+}
+
+div.paytypes > div {
+  padding-bottom: 10px;
+}
+
+#compare {
+  line-height: 1.5;
+}
+/* flags */
+#flag {
+  padding: 9px 8px 0 8px;
+  float: right;
+  height: 50px;
+}
+
+.flag {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url('../images/flags.png') no-repeat;
+}
+
+.flag-sm {
+  width: 16px;
+  height: 16px;
+}
+
+.flag.flag-au {
+  background-position: 0 0;
+}
+
+.flag.flag-ca {
+  background-position: -32px 0;
+}
+
+.flag.flag-us {
+  background-position: -32px -32px;
+}
+
+.flag.flag-nz {
+  background-position: 0 -32px;
+}
+
+.flag.flag-gb {
+  background-position: -64px 0;
+}
+
+h1 small {
+  color: white;
+}

@@ -1,0 +1,729 @@
+
+
+[Fri Sep 21 19:32:03 AEST 2018] paypay_ipn notification
+
+Someone attempted a sale using a manipulated URL
+
+mc_gross=0.01, totalprice=0
+
+The following data was received from PayPal:
+
+mc_gross: 	0.01
+invoice: 	210262-2521437
+protection_eligibility: 	Eligible
+address_status: 	confirmed
+payer_id: 	QLK8DMTUQB2CE
+tax: 	0.00
+address_street: 	20 Anita drive
+Andergrove
+payment_date: 	02:31:55 Sep 21, 2018 PDT
+payment_status: 	Completed
+charset: 	windows-1252
+address_zip: 	4740
+first_name: 	Sherrie
+mc_fee: 	0.01
+address_country_code: 	AU
+address_name: 	Sherrie Klingner
+notify_version: 	3.9
+custom: 	qmhozx
+payer_status: 	verified
+business: 	orders@my-will-online.com.au
+address_country: 	Australia
+address_city: 	Mackay
+quantity: 	1
+verify_sign: 	A.bWmSwns7CQNjVJ2e.LCOVGB3GBA.dOaZ-GUTP6QnjEyFFFEeoSCo36
+payer_email: 	gavens7@bigpond.com
+txn_id: 	0J341172519630359
+payment_type: 	instant
+last_name: 	Klingner
+address_state: 	Queensland
+receiver_email: 	orders@my-will-online.com.au
+payment_fee: 	
+shipping_discount: 	0.00
+insurance_amount: 	0.00
+receiver_id: 	MTR7EKSJVC7G2
+txn_type: 	web_accept
+item_name: 	Premium Will
+discount: 	0.00
+mc_currency: 	AUD
+item_number: 	210262
+residence_country: 	AU
+shipping_method: 	Default
+transaction_subject: 	
+payment_gross: 	
+ipn_track_id: 	4059ccac6185a
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Fri Sep 21 19:37:59 AEST 2018] paypay_ipn notification
+
+Someone attempted a sale using a manipulated URL
+
+mc_gross=0.01, totalprice=0
+
+The following data was received from PayPal:
+
+mc_gross: 	0.01
+invoice: 	210262-4421441
+protection_eligibility: 	Eligible
+address_status: 	confirmed
+payer_id: 	QLK8DMTUQB2CE
+tax: 	0.00
+address_street: 	20 Anita drive
+Andergrove
+payment_date: 	02:37:51 Sep 21, 2018 PDT
+payment_status: 	Completed
+charset: 	windows-1252
+address_zip: 	4740
+first_name: 	Sherrie
+mc_fee: 	0.01
+address_country_code: 	AU
+address_name: 	Sherrie Klingner
+notify_version: 	3.9
+custom: 	qmhozx
+payer_status: 	verified
+business: 	orders@my-will-online.com.au
+address_country: 	Australia
+address_city: 	Mackay
+quantity: 	1
+verify_sign: 	A6B7f0JKn1iPWYrtqLdTsoREutsmAdgt3-mKiaG47IOz5rXdSC0CxghY
+payer_email: 	gavens7@bigpond.com
+txn_id: 	4VF94451104602836
+payment_type: 	instant
+last_name: 	Klingner
+address_state: 	Queensland
+receiver_email: 	orders@my-will-online.com.au
+payment_fee: 	
+shipping_discount: 	0.00
+insurance_amount: 	0.00
+receiver_id: 	MTR7EKSJVC7G2
+txn_type: 	web_accept
+item_name: 	Premium Will
+discount: 	0.00
+mc_currency: 	AUD
+item_number: 	210262
+residence_country: 	AU
+shipping_method: 	Default
+transaction_subject: 	
+payment_gross: 	
+ipn_track_id: 	2e4022d211a8e
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Fri Mar 8 16:23:20 AEDT 2019] paypay_ipn notification
+
+Refunded Payment
+
+The following data was received from PayPal:
+
+mc_gross: 	89.95
+invoice: 	210773-4704324
+protection_eligibility: 	Ineligible
+address_status: 	confirmed
+payer_id: 	S5ULFGYKPVBDE
+tax: 	0.00
+address_street: 	17/34 POTTS ROAD
+payment_date: 	22:50:37 Mar 03, 2019 PST
+payment_status: 	Refunded
+charset: 	windows-1252
+address_zip: 	3910
+first_name: 	Lily
+mc_fee: 	2.64
+address_country_code: 	AU
+address_name: 	Lily Claude Stephanie Otten
+notify_version: 	3.9
+custom: 	
+payer_status: 	unverified
+business: 	orders@my-will-online.com.au
+address_country: 	Australia
+address_city: 	LANGWARRIN
+quantity: 	1
+verify_sign: 	Apktz38zm9amgi-o-sWEPpNukg00A8bwOw6Le2z4U83348vBK0BWvbCv
+payer_email: 	stephotten@gmail.com
+txn_id: 	8JU35389GL544660V
+payment_type: 	instant
+last_name: 	Claude Stephanie Otten
+address_state: 	VIC
+receiver_email: 	orders@my-will-online.com.au
+payment_fee: 	
+shipping_discount: 	0.00
+insurance_amount: 	0.00
+receiver_id: 	MTR7EKSJVC7G2
+txn_type: 	web_accept
+item_name: 	Premium Will
+discount: 	0.00
+mc_currency: 	AUD
+item_number: 	210773
+residence_country: 	AU
+receipt_id: 	0247-1389-7545-8762
+shipping_method: 	Default
+handling_amount: 	0.00
+transaction_subject: 	
+payment_gross: 	
+shipping: 	0.00
+ipn_track_id: 	1325440667072
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Thu Mar 14 18:43:25 AEDT 2019] paypay_ipn notification
+
+Refunded Payment
+
+The following data was received from PayPal:
+
+mc_gross: 	-89.95
+invoice: 	210773-4704324
+protection_eligibility: 	Ineligible
+payer_id: 	S5ULFGYKPVBDE
+address_street: 	17/34 POTTS ROAD
+payment_date: 	21:23:09 Mar 07, 2019 PST
+payment_status: 	Refunded
+charset: 	windows-1252
+address_zip: 	3910
+first_name: 	Lily
+mc_fee: 	-2.34
+address_country_code: 	AU
+address_name: 	Lily Claude Stephanie Otten
+notify_version: 	3.9
+reason_code: 	refund
+echeck_time_processed: 	00:43:04 Mar 14, 2019 PDT
+custom: 	
+business: 	orders@my-will-online.com.au
+address_country: 	Australia
+address_city: 	LANGWARRIN
+verify_sign: 	AHdT98bwNio7S5SDfS9YUG7yhf1fA2wnC5kfXrSP9jiDibVWnXbjKvR1
+payer_email: 	stephotten@gmail.com
+parent_txn_id: 	8JU35389GL544660V
+txn_id: 	98E23728RD147434H
+payment_type: 	echeck
+last_name: 	Claude Stephanie Otten
+address_state: 	VIC
+receiver_email: 	orders@my-will-online.com.au
+payment_fee: 	
+shipping_discount: 	0.00
+receiver_id: 	MTR7EKSJVC7G2
+insurance_amount: 	0.00
+item_name: 	Premium Will
+discount: 	0.00
+mc_currency: 	AUD
+item_number: 	210773
+residence_country: 	AU
+receipt_id: 	0247-1389-7545-8762
+handling_amount: 	0.00
+shipping_method: 	Default
+transaction_subject: 	
+payment_gross: 	
+shipping: 	0.00
+ipn_track_id: 	0de28f6c0fa15
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Fri May 10 17:28:23 AEST 2019] paypay_ipn notification
+
+Refunded Payment
+
+The following data was received from PayPal:
+
+mc_gross: 	-59.95
+invoice: 	211029-1710299
+protection_eligibility: 	Eligible
+payer_id: 	392Z9ZLEJFQE4
+address_street: 	PO Box 210
+payment_date: 	00:28:15 May 10, 2019 PDT
+payment_status: 	Refunded
+charset: 	windows-1252
+address_zip: 	7006
+first_name: 	Penny
+mc_fee: 	-1.56
+address_country_code: 	AU
+address_name: 	Penny Riddoch Photography
+notify_version: 	3.9
+reason_code: 	refund
+custom: 	
+business: 	orders@my-will-online.com.au
+address_country: 	Australia
+address_city: 	Sandy Bay
+verify_sign: 	ADuYMv3NuHPrZFYX74tTqTYUbz5eAzw47e.L4UZ-Iy.9rXZm15duTHzo
+payer_email: 	penny@pennyriddoch.com.au
+parent_txn_id: 	21R18245WY6043615
+txn_id: 	8GK192087C979302X
+payment_type: 	instant
+payer_business_name: 	Penny Riddoch Photography
+last_name: 	Riddoch
+address_state: 	TAS
+receiver_email: 	orders@my-will-online.com.au
+payment_fee: 	
+shipping_discount: 	0.00
+receiver_id: 	MTR7EKSJVC7G2
+insurance_amount: 	0.00
+item_name: 	Premium Will
+discount: 	0.00
+mc_currency: 	AUD
+item_number: 	211029
+residence_country: 	AU
+handling_amount: 	0.00
+shipping_method: 	Default
+transaction_subject: 	
+payment_gross: 	
+shipping: 	0.00
+ipn_track_id: 	c5aa2d22f208b
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Fri May 31 22:20:37 AEST 2019] paypay_ipn notification
+
+invoice_payment IPN
+
+The following data was received from PayPal:
+
+mc_gross: 	89.95
+invoice: 	INV2-UKB6-5ZGK-XEKY-852Y
+protection_eligibility: 	Eligible
+address_status: 	confirmed
+item_number1: 	
+payer_id: 	6ZJT4ZRRX2RWL
+tax: 	0.00
+address_street: 	88 Alderley Street, Toowoomba
+payment_date: 	05:20:29 May 31, 2019 PDT
+payment_status: 	Completed
+invoice_id: 	INV2-UKB6-5ZGK-XEKY-852Y
+charset: 	windows-1252
+address_zip: 	4350
+first_name: 	Judi
+mc_fee: 	2.64
+address_country_code: 	AU
+address_name: 	Judi Dau
+notify_version: 	3.9
+custom: 	
+payer_status: 	verified
+business: 	orders@my-will-online.com.au
+address_country: 	Australia
+num_cart_items: 	1
+address_city: 	Rangeville
+verify_sign: 	A.UlE509xzcpASwMj9YItScLlL8iARTHKsqYvP1hxBaVvob6ltz.4T70
+payer_email: 	judi7272@gmail.com
+txn_id: 	7G6263927D076754F
+payment_type: 	instant
+last_name: 	Jones
+address_state: 	QLD
+item_name1: 	Payment to My Will Online Australia for invoice 20011
+receiver_email: 	orders@my-will-online.com.au
+payment_fee: 	
+shipping_discount: 	0.00
+quantity1: 	1
+insurance_amount: 	0.00
+receiver_id: 	MTR7EKSJVC7G2
+txn_type: 	invoice_payment
+discount: 	0.00
+mc_gross_1: 	89.95
+mc_currency: 	AUD
+residence_country: 	AU
+shipping_method: 	Default
+transaction_subject: 	
+invoice_number: 	20011
+payment_gross: 	
+ipn_track_id: 	5e987f879f50d
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Tue Jan 14 15:39:47 AEDT 2020] paypay_ipn notification
+
+send_money IPN
+
+The following data was received from PayPal:
+
+transaction_subject: 	Payment from Airbnb via PayPal - Confirmation
+txn_type: 	send_money
+payment_date: 	20:39:41 Jan 13, 2020 PST
+last_name: 	Bernstein
+residence_country: 	GB
+payment_gross: 	
+mc_currency: 	AUD
+business: 	orders@my-will-online.com.au
+payment_type: 	instant
+protection_eligibility: 	Ineligible
+verify_sign: 	As3.LhWnzcLkn5hBoV.dGBt-r9UIA24ttoux-l3Tbm-nn1uaD5TAY4li
+payer_status: 	verified
+payer_email: 	paypal-gbp@airbnb.com
+txn_id: 	2PJ19976J6599053K
+receiver_email: 	orders@my-will-online.com.au
+first_name: 	David
+payer_id: 	QX2G4B5Y6STNJ
+receiver_id: 	MTR7EKSJVC7G2
+payer_business_name: 	AIRBNB PAYMENTS UK LIMITED
+payment_status: 	Completed
+mc_gross: 	206.46
+charset: 	windows-1252
+notify_version: 	3.9
+ipn_track_id: 	d4856ef62fb5e
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Mon Jan 27 15:38:49 AEDT 2020] paypay_ipn notification
+
+send_money IPN
+
+The following data was received from PayPal:
+
+transaction_subject: 	Payment from Airbnb via PayPal - Confirmation
+txn_type: 	send_money
+payment_date: 	20:38:43 Jan 26, 2020 PST
+last_name: 	Bernstein
+residence_country: 	GB
+payment_gross: 	
+mc_currency: 	AUD
+business: 	orders@my-will-online.com.au
+payment_type: 	instant
+protection_eligibility: 	Ineligible
+verify_sign: 	A8nT7tUox-WvFI-Os-jDcmWrBbWFAtsMweb8.pzkyq47Q2PTk-G4PXCe
+payer_status: 	verified
+payer_email: 	paypal-gbp@airbnb.com
+txn_id: 	1YA75756U45101153
+receiver_email: 	orders@my-will-online.com.au
+first_name: 	David
+payer_id: 	QX2G4B5Y6STNJ
+receiver_id: 	MTR7EKSJVC7G2
+payer_business_name: 	AIRBNB PAYMENTS UK LIMITED
+payment_status: 	Completed
+mc_gross: 	749.43
+charset: 	windows-1252
+notify_version: 	3.9
+ipn_track_id: 	3eb03e12edd7c
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Sat Feb 8 15:42:03 AEDT 2020] paypay_ipn notification
+
+send_money IPN
+
+The following data was received from PayPal:
+
+transaction_subject: 	Payment from Airbnb via PayPal - Confirmation
+txn_type: 	send_money
+payment_date: 	20:41:56 Feb 07, 2020 PST
+last_name: 	Bernstein
+residence_country: 	GB
+payment_gross: 	
+mc_currency: 	AUD
+business: 	orders@my-will-online.com.au
+payment_type: 	instant
+protection_eligibility: 	Ineligible
+verify_sign: 	AlrB6evg5qNr-I5d5cyJMlWCM9tKAYazdPekExFeXNvscXhYhuzGL6Hb
+payer_status: 	verified
+payer_email: 	paypal-gbp@airbnb.com
+txn_id: 	3TJ25688S4211573X
+receiver_email: 	orders@my-will-online.com.au
+first_name: 	David
+payer_id: 	QX2G4B5Y6STNJ
+receiver_id: 	MTR7EKSJVC7G2
+payer_business_name: 	AIRBNB PAYMENTS UK LIMITED
+payment_status: 	Completed
+mc_gross: 	293.97
+charset: 	windows-1252
+notify_version: 	3.9
+ipn_track_id: 	893096c86284c
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Mon Mar 9 15:53:01 AEDT 2020] paypay_ipn notification
+
+send_money IPN
+
+The following data was received from PayPal:
+
+transaction_subject: 	Payment from Airbnb via PayPal - Confirmation
+txn_type: 	send_money
+payment_date: 	21:52:55 Mar 08, 2020 PDT
+last_name: 	Bernstein
+residence_country: 	GB
+payment_gross: 	
+mc_currency: 	AUD
+business: 	orders@my-will-online.com.au
+payment_type: 	instant
+protection_eligibility: 	Ineligible
+verify_sign: 	AWq7gv5KEUXJ6Qo3cliJEqVma0rNAmiLkzJ9tyBn2sMstl0HHmmuISgS
+payer_status: 	verified
+payer_email: 	paypal-gbp@airbnb.com
+txn_id: 	4Y213549BK677863H
+receiver_email: 	orders@my-will-online.com.au
+first_name: 	David
+payer_id: 	QX2G4B5Y6STNJ
+receiver_id: 	MTR7EKSJVC7G2
+payer_business_name: 	AIRBNB PAYMENTS UK LIMITED
+payment_status: 	Completed
+mc_gross: 	1051.11
+charset: 	windows-1252
+notify_version: 	3.9
+ipn_track_id: 	76abe17bfb89d
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Mon May 11 21:03:08 AEST 2020] paypay_ipn notification
+
+new_case IPN
+
+The following data was received from PayPal:
+
+txn_type: 	new_case
+payment_date: 	03:25:28 May 11, 2020 PDT
+case_id: 	PP-D-65601830
+case_type: 	dispute
+business: 	orders@my-will-online.com.au
+verify_sign: 	AeIEIW9QWbVm4q.FRWwaYYnOWayBAjUECuvmW8AnI.qxfHC.u5ho8TWB
+payer_email: 	linda.mirco.aus@gmail.com
+txn_id: 	8C412994EG752243H
+case_creation_date: 	03:32:13 May 11, 2020 PDT
+receiver_email: 	orders@my-will-online.com.au
+payer_id: 	DU8UWJY84XCTC
+invoice: 	212397-0111474
+receiver_id: 	MTR7EKSJVC7G2
+reason_code: 	non_receipt
+custom: 	
+charset: 	windows-1252
+notify_version: 	3.9
+ipn_track_id: 	46ed6147d7cf1
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Wed Oct 7 16:56:24 AEDT 2020] paypay_ipn notification
+
+Bad order (PayPal says it's invalid)HTTP/1.1 500 Internal Server Error
+Connection: close
+Content-Length: 66
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Type: text/plain
+Paypal-Debug-Id: fdf9e78160f8e
+Set-Cookie: ts=vreXpYrS%3D1696658184%26vteXpYrS%3D1602051984%26vr%3D01a1d5821750a1d59d52a42dff271d88%26vt%3D01a1d5821750a1d59d52a42dff271d87%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Sat, 07 Oct 2023 05:56:24 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D01a1d5821750a1d59d52a42dff271d88%26vt%3D01a1d5821750a1d59d52a42dff271d87; Path=/; Domain=paypal.com; Expires=Sat, 07 Oct 2023 05:56:24 GMT; Secure
+DC: phx-origin-www-2.paypal.com
+Accept-Ranges: bytes
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Date: Wed, 07 Oct 2020 05:56:24 GMT
+Via: 1.1 varnish
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Served-By: cache-sin18031-SIN, cache-syd10144-SYD
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1602050184.424399,VS0,VE305
+Set-Cookie: x-cdn=fastly:SYD; Domain=paypal.com; Path=/; Secure
+
+500 INTERNAL_SERVICE_ERROR
+
+An internal service error has occurred
+
+The following data was received from PayPal:
+
+mc_gross: 	120.00
+invoice: 	213079-4707288
+protection_eligibility: 	Eligible
+address_status: 	confirmed
+payer_id: 	47S7QETUMXBXC
+tax: 	0.00
+address_street: 	Ground Floor 322 Glenferrie Road
+payment_date: 	22:56:17 Oct 06, 2020 PDT
+payment_status: 	Completed
+charset: 	windows-1252
+address_zip: 	3144
+first_name: 	nicole
+mc_fee: 	3.42
+address_country_code: 	AU
+address_name: 	Nicole McIntyre
+notify_version: 	3.9
+custom: 	
+payer_status: 	verified
+business: 	orders@my-will-online.com.au
+address_country: 	Australia
+address_city: 	Malvern
+quantity: 	1
+verify_sign: 	A8UCBJBiJMJA2QAbLNK-cwpQecIQA2NsoV40dAWi.oQxTn6x.qepva7C
+payer_email: 	n_mmcintyre@hotmail.com
+txn_id: 	9F83921747605163C
+payment_type: 	instant
+last_name: 	mcintyre
+address_state: 	VIC
+receiver_email: 	orders@my-will-online.com.au
+payment_fee: 	
+shipping_discount: 	0.00
+insurance_amount: 	0.00
+receiver_id: 	MTR7EKSJVC7G2
+txn_type: 	web_accept
+item_name: 	Premium Will
+discount: 	0.00
+mc_currency: 	AUD
+item_number: 	213079
+residence_country: 	AU
+shipping_method: 	Default
+transaction_subject: 	
+payment_gross: 	
+ipn_track_id: 	b3b66615689aa
+
+
+From: My Will Online <customerservice@my-will-online.com.au>
+Reply-To: customerservice@my-will-online.com.au
+Return-Path: customerservice@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Tue Nov 24 19:44:55 AEDT 2020] paypay_ipn notification
+
+Refunded Payment
+
+The following data was received from PayPal:
+
+mc_gross: 	-64.00
+invoice: 	212189-1724146
+protection_eligibility: 	Eligible
+payer_id: 	VE46N23A3FH8S
+address_street: 	2  Dorset  ST
+payment_date: 	00:44:45 Nov 24, 2020 PST
+payment_status: 	Refunded
+charset: 	windows-1252
+address_zip: 	3150
+first_name: 	Heather
+mc_fee: 	0.00
+address_country_code: 	AU
+address_name: 	Artspace7
+notify_version: 	3.9
+reason_code: 	refund
+custom: 	nm4ex3xneu
+business: 	orders@my-will-online.com.au
+address_country: 	Australia
+address_city: 	Glen Waverley
+verify_sign: 	AXBLrVJmA-PFtzNaYXEgSK0UIgknAoqgRA1Hc9bwMavAburmFM7Q-fHt
+payer_email: 	heather@artspace7.com.au
+parent_txn_id: 	4NA83346AJ504234M
+txn_id: 	4LK42537HJ138240A
+payment_type: 	instant
+payer_business_name: 	Artspace7
+last_name: 	King
+address_state: 	VIC
+receiver_email: 	orders@my-will-online.com.au
+payment_fee: 	
+shipping_discount: 	0.00
+receiver_id: 	MTR7EKSJVC7G2
+insurance_amount: 	0.00
+item_name: 	Premium Will
+discount: 	0.00
+mc_currency: 	AUD
+item_number: 	212189
+residence_country: 	AU
+handling_amount: 	0.00
+shipping_method: 	Default
+transaction_subject: 	
+payment_gross: 	
+shipping: 	0.00
+ipn_track_id: 	fc4b1e5e9a64
+
+
+From: My Will Online <queries@my-will-online.com.au>
+Reply-To: queries@my-will-online.com.au
+Return-Path: queries@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
+
+
+[Fri Jan 1 15:43:45 AEDT 2021] paypay_ipn notification
+
+send_money IPN
+
+The following data was received from PayPal:
+
+transaction_subject: 	Payment from Airbnb via PayPal - Confirmation
+txn_type: 	send_money
+payment_date: 	20:43:35 Dec 31, 2020 PST
+last_name: 	Bernstein
+residence_country: 	GB
+payment_gross: 	
+mc_currency: 	AUD
+business: 	orders@my-will-online.com.au
+payment_type: 	instant
+protection_eligibility: 	Ineligible
+verify_sign: 	Ag4nvT3stk1jnETw-POxrS00sSNwAponVSQjQMG.O68eAYRFk8X6QKn5
+payer_status: 	verified
+payer_email: 	paypal-gbp@airbnb.com
+txn_id: 	5CY2219834842644U
+receiver_email: 	orders@my-will-online.com.au
+first_name: 	David
+payer_id: 	QX2G4B5Y6STNJ
+receiver_id: 	MTR7EKSJVC7G2
+payer_business_name: 	AIRBNB PAYMENTS UK LIMITED
+payment_status: 	Completed
+mc_gross: 	241.75
+charset: 	windows-1252
+notify_version: 	3.9
+ipn_track_id: 	9d924fba24667
+
+
+From: My Will Online <queries@my-will-online.com.au>
+Reply-To: queries@my-will-online.com.au
+Return-Path: queries@my-will-online.com.au
+Organization: My Will Online
+X-Priority: 3
