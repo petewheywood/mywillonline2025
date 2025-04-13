@@ -89,14 +89,14 @@ require("pageincludes/header.php");
           <a href="singlewill.html" class="btn btn-default"><i class="glyphicon glyphicon-edit"></i> Edit Now</a>
         </p>
 <?php } ?>
-<?php if (isset($displayexpired)) { ?>            
+<?php if (false && isset($displayexpired)) { ?>            
         <p class="alert alert-warning">
           Your last order was placed on <span class='highlight'><?php echo $displayexpired;?></span> and 
           it has now passed the <?php echo PRODUCTEXPIRY; ?> month expiry time.
           To download another copy of your will, you will need to pay again. Thank you.
         </p>
 <?php } ?>
-<?php if (isset($unpaid) && $unpaid > '') { ?>            
+<?php if (false && isset($unpaid) && $unpaid > '') { ?>            
         <p class="alert alert-warning">
           Your order currently has a status of <span class='text-primary'><?php echo $unpaid;?></span>.
           The order was last updated <span class='text-primary'><?php echo $lastupdate;?></span>.
@@ -104,7 +104,8 @@ require("pageincludes/header.php");
         </p>
 <?php } ?>
         <form id="orderForm" method="post" class="form-horizontal" role="form" action="includes/processpayment.php">
-          <input id="paytype" type="hidden" name="paytype" value="<?php echo isset($_SESSION['paytype']) ? $_SESSION['paytype'] : '';?>">
+<!--           <input id="paytype" type="hidden" name="paytype" value="<?php echo isset($_SESSION['paytype']) ? $_SESSION['paytype'] : '';?>"> -->
+          <input id="paytype" type="hidden" name="paytype" value="commweb">
           <span id="orderid" style="display: none;"><?php echo $_SESSION['orderid'];?></span>
           <fieldset>
             <legend>Order Details</legend>
@@ -165,14 +166,17 @@ if (TAX != 0) {
 <?php if (!$pricezero) {?>
             <hr>
   <?php if (CBA_MERCHANTID > '') { ?>            
+<!--
             <h2>Please select a payment method:</h2>
             <div class="row">
-              <div id="polibtn" class="paybtn col-sm-4"></div>
-              <div id="cbabtn" class="paybtn col-sm-4"></div>
+              <div id="polibtn" class="paybtn col-sm-6"></div>
+              <div id="cbabtn" class="paybtn col-sm-6"></div>
               <div id="paypalbtn" class="paybtn col-sm-4"></div>
             </div>
+-->
             <br id="paymentmethod">
-            <div id="cc" style="display: <?php echo isset($_SESSION['ccfail']) ? 'block' : 'none';?>">
+<!--             <div id="cc" style="display: <?php echo isset($_SESSION['ccfail']) ? 'block' : 'none';?>"> -->
+            <div id="cc">
               <p style="margin-bottom: 30px;">
                 Please enter <img src="images/visa.gif" alt="VISA"> or <img src="images/masterc.gif" alt="Mastercard"> details in the secure form below.
               </p>

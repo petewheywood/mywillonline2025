@@ -17,7 +17,7 @@
   <?php }?>
             <a href="contact.html">Contact Us</a><br>
             <a href="ourcustomers.html">Our customer feedback</a><br>
-  <?php if ($_SESSION['products']['singlewill']['priceinctax'] != 0) { ?>            
+  <?php if (false && $_SESSION['products']['singlewill']['priceinctax'] != 0) { ?>            
             <a href="affiliateprogram.html">Affiliate Program</a><br>
   <?php }?>
             <a href="terms.html">Terms of Use</a><br>
@@ -34,15 +34,16 @@
             <a href="about-epog.html">Enduring Guardianships</a><br>
             <a href="famous-people-intestate.html">Famous people with no Will</a>
           </div>
+          <div class="col-sm-4"><img style="margin-top:60px;" src="images/mc_visa.png" alt="Pay with Mastercard and VISA" /></div>
         </div>        
-<?php if ($_SESSION['products']['singlewill']['priceinctax'] != 0) { ?>
+<?php if (false && $_SESSION['products']['singlewill']['priceinctax'] != 0) { ?>
         <div class="row paytypes">
           <div class="col-sm-4 text-center"><a href="https://www.polipayments.com/Buy" rel="nofollow" title="How POLi works" target="poli"><img src="images/poli.png" alt="Pay with POLi" /></a></div>
           <div class="col-sm-4 text-center"><img src="images/mc_visa.png" alt="Pay with Mastercard and VISA" /></div>
           <div class="col-sm-4 text-center"><a href="https://www.paypal.com/au/webapps/mpp/paypal-popup" rel="nofollow" title="How PayPal Works" target="paypal"><img src="images/paypal.png" alt="Pay with Paypal" /></a></div>
         </div>
-      </div>
 <?php }?>
+      </div>
   
       <!-- footer -->
       <div id="footer">

@@ -240,9 +240,6 @@ require("pageincludes/header.php");
         practices.</p>
         
         <p>
-        	---
-        </p>
-        <p>
         	<strong><em><?php echo SITECOMPANY;?> - ABN <?php echo SITEABN;?></em></strong>
         </p>
       </section>

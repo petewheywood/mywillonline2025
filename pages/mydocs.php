@@ -204,8 +204,10 @@ if ($_SESSION['ordercount']['all'] == 0) {
           <div style="text-align: center; width: 80%;margin:60px auto;">
             <?php $discount = isset($_SESSION['affiliatediscount']) ? $_SESSION['affiliatediscount'] : $_SESSION['discount']; ?>
             <h2 class="text-success">
-              Recommend <?php echo SITENAME;?> to family and friends and they'll get a <?php echo percent($discount); ?> discount.
+              Recommend <?php echo SITENAME;?> to family and friends and they'll get a <?php echo percent($discount); ?> discount. Join our <a href="affiliateprogram.html">affiliate program</a> for details.
             </h2>
+            <h3>If you give your friends and family this coupon code <a data-toggle="popover" data-trigger="hover" title="Your unique affiliate code" data-content="This is your unique affiliate code that you may share with others to give them a discount and earn you income."><?php echo $_SESSION['affiliatecode']; ?></a> they can enter it in the Coupon Code field on their order page when they order their will from My Will Online. They will then get a <?php echo percent($discount); ?> discount.</h3>
+            <br> <br>
             <span class="text-success text-right large"><strong>Share on:</strong></span>
             <input id="posttext" name="posttext" type="hidden" value="I've just used <?php echo SITENAME;?> to create my will. It's really easy and fast and great value. I recommend it if you haven't got a will or you need an updated one. If you click on the link below you'll get a <?php echo percent($discount); ?> discount when you order.">
             <input name="discount" type="hidden" value="<?php echo percent($discount);?>">

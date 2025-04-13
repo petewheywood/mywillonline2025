@@ -46,7 +46,7 @@ if ($_SESSION['products']['singlewill']['priceinctax'] == 0 || $_SESSION['produc
 } else {
 	$title = "Online Will Australia · " . SITENAME;
   $freewill = false;
-  $bannerh1 = "Live your life to fullest. Leave a memorable legacy. Create your will online today.";
+  $bannerh1 = "Live your life to fullest. Leave your legacy. Create your will online today.";
 // 	$bannerh2 = '<h2>Secure · Legal Across Australia · 100% Satisfaction Guarantee · 100% Australian</h2>';
 	$bannerh2 = '<h2 style="margin-top: 16vw;">Free updates for life and a Free Enduring Power of Attorney.<br> <br>' . $premiumwillprice . ' for a single will or ' . $mirrorwillprice . ' for a couple.</h2>';
 }
@@ -150,56 +150,52 @@ foreach ($feedbacks as $feedback) {
       </div>
     </section>
 
-    <section class="container-fluid" id="best">
-      <div class="container narrow text-center">
-        <h2>Is This Will Kit The Best Option For Me?</h1>
+    <section class="container-fluid">
+      <div class="container" id="validwill">    
         <div class="row">
           <div class="col-sm-6">
-            <div>
-              <img src="images/usesolicitor.png" alt="Use a Will Kit or Not?" class="img-responsive" style="margin: 0 auto;">
-            </div>
-          </div>
-          <div class="col-sm-6" style="text-align: left; margin-top: 30px;">
+            <h2>How To Make A Will In Australia</h1>
             <p>
-              Our Will kit is perfectly suited for most. It is flexible enough to clearly represent your wishes and it produces an
-              unambiguous, plain English, legal Will that is valid in all Australian states and territories.
+              For a Will to be legally valid in Australia, the following conditions must be met:
             </p>
-            <p>
-              However, if your situation is complex, such as, having one or
-              more ex-partners, children from more than one relationship, family trusts, complex business arrangements,
-              and so on, we suggest you consider using an estate planning solicitor to assist you with writing your will.
-            </p>
+            <ol>
+              <li>
+                The person making the Will must be at least 18 years of age
+              </li>
+              <li>
+                The person must have an intention to make the Will
+              </li>
+              <li>
+                The Will must be made voluntarily without any pressure from another person
+              </li>
+              <li>
+                The person must understand the contents of the Will, and approve of what is written
+              </li>
+              <li>
+                Two witnesses (who are over 18 and who are not mentioned as a beneficiary in the Will and not the partner of a beneficiary) must sign, and acknowledge the Will in the presence of the person making the will. They must also see the Will maker sign the Will.
+              </li>          
+            </ol>
           </div>
-        </div>
-        <br>
-        <a href="<?php echo isset($_SESSION['loggedin']) ? 'mydocs.html' : 'start.html';?>" class="btn btn-success">Shall we continue?</a>
+          <div class="col-sm-6">
+            <h2>Is This Will Kit The Best Option For Me?</h1>
+              <p>
+                Our Will kit is perfectly suited for most. It is flexible enough to clearly represent your wishes and it produces an
+                unambiguous, plain English, legal Will that is valid in all Australian states and territories.
+              </p>
+              <p>
+                However, if your situation is complex, such as, having one or
+                more ex-partners, children from more than one relationship, family trusts, complex business arrangements,
+                and so on, we suggest you consider using an estate planning solicitor to assist you with writing your will.
+              </p>
+          </div>
+        </div
       </div>
     </section>
-
-    <section class="container-fluid" id="validwill">    
-      <div class="container narrow">
-        <h2 class="text-center">How To Make A Will In Australia</h1>
-        <p>
-          For a Will to be legally valid in Australia, the following conditions must be met:
-        </p>
-        <ol>
-          <li>
-            The person making the Will must be at least 18 years of age
-          </li>
-          <li>
-            The person must have an intention to make the Will
-          </li>
-          <li>
-            The Will must be made voluntarily without any pressure from another person
-          </li>
-          <li>
-            The person must understand the contents of the Will, and approve of what is written
-          </li>
-          <li>
-            Two witnesses (who are over 18 and who are not mentioned as a beneficiary in the Will and not the partner of a beneficiary) must sign, and acknowledge the Will in the presence of the person making the will. They must also see the Will maker sign the Will.
-          </li>          
-        </ol>
-      </div>  
+    
+    <section>
+      <div class="text-center">
+        <a href="<?php echo isset($_SESSION['loggedin']) ? 'mydocs.html' : 'start.html';?>" class="btn btn-success">Shall we continue?</a>
+      </div>
     </section>
 
     <section class="container-fluid" id="s5">    
@@ -233,7 +229,7 @@ foreach ($feedbacks as $feedback) {
         </div>
       </div>
     </section>
-      
+
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",

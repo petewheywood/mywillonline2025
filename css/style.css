@@ -1267,3 +1267,28 @@ div.paytypes > div {
 h1 small {
   color: white;
 }
+
+/* instagram posts */
+#instagram {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.instapost {
+  width: 250px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding: 0 10px 20px;
+}
+.instapost img {
+  width: 100%;
+  margin-bottom: 8px;
+  box-shadow: 1px 1px 6px 0px #888;
+}
+
+#validwill ol {
+  padding-inline-start: 20px;
+}

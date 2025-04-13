@@ -76,12 +76,14 @@ require("pageincludes/header.php");
 if (!$validcode) {
 ?>          
         <h1>New Customers Register or Existing Customers Sign In</h1>
+<!--
         <div class="bordered">
           <h3><i class="glyphicon glyphicon-play text-primary"></i> <strong>NEW</strong> and <strong>EXISTING</strong> customers can sign in with Facebook to save time</h3>
           <button id="FBLoginButton" class="btn btn-social btn-facebook">
             <i class="fa fa-facebook"></i>Sign in with Facebook
           </button>
         </div>
+-->
         <div class="row" style="margin: 0 0 30px 0;">
           <div class="bordered col-md-6">
 <?php
@@ -117,7 +119,7 @@ if ($validcode) {
 <?php
 } else {
 ?>
-            <h3><i class="glyphicon glyphicon-play text-info"></i> Or, <strong>NEW</strong> customers who don't have Facebook, can sign in by completing the information below</h3>
+            <h3><i class="glyphicon glyphicon-play text-info"></i> <strong>NEW</strong> customers can sign in by completing the information below</h3>
 <?php
 }
 ?>

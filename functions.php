@@ -284,20 +284,18 @@ function updateOrderData() {
 	if (isset($orderdata['product']) && is_array($orderdata['product'])) krsort($orderdata['product']);
   # check for any addon products selected and update $priceextax
   $priceextax = 0;
+/*
   foreach ($orderdata['product'] as $product => $yesno) {
     if ($yesno == 'Yes') {
       $priceextax += $_SESSION['products'][$product]['priceinctax'] / (1 + TAX);
-/*
       $query = "INSERT INTO productorders (orderid, productid, priceextax) VALUES (" . $orderID . ", " . $_SESSION['products'][$product]['productid'] . ", '" . $_SESSION['products'][$product]['priceinctax'] / (1 + TAX) . "');";
       $result = $dbh->exec($query); # insert will fail if it is already there
-*/
     } else {
-/*
       $deletequery = "DELETE FROM productorders WHERE orderid = " . $orderID . " AND productid = " . $_SESSION['products'][$product]['productid'] . ";";
       $result = $dbh->exec($deletequery);
-*/
     }
   }
+*/
   $orderdata = addslashes(serialize($orderdata));
   # update session copy of extaxprice
   $_SESSION['orderextaxamount'] = $priceextax;
@@ -1114,7 +1112,7 @@ function prepareData() {
         } else {
           $theArray[$i]['relationship'] = '';
           # if the beneficiary is a group then add a standard clause
-          # $theArray[$i]['altrecipientphrase'] =  'I declare that the receipt of the secretary or other proper officer of ' . $relationship[$theArray[$i]['recipient']]['fullname'] . ' shall be a full discharge for my trustees for this gift.';
+          $theArray[$i]['altrecipientphrase'] =  'I declare that the receipt of the secretary or other proper officer of ' . $relationship[$theArray[$i]['recipient']]['fullname'] . ' shall be a full discharge for my trustees for this gift.';
         }
         # set the recipient name
         $theArray[$i]['fullname'] = $relationship[$theArray[$i]['recipient']]['fullname'];
@@ -1649,34 +1647,5 @@ function null2unknown($map, $key) {
   return "No Value Returned";
 } 
 
-function instagram_feed( $type = 'IMAGE' , $limit = 10 ){
-  $accessToken = INSTA_ACCESS_TOKEN;
-  $url = INSTA_URL . $accessToken;
-  $counter = 0;
-  $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, $url);
-  curl_setopt($ch, CURLOPT_HEADER, false);
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-  curl_setopt($ch, CURLOPT_MAXREDIRS, 1);
-  $result = curl_exec($ch);
-  $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-  curl_close($ch);
-  $result = json_decode($result);
-  $output = '';
-  foreach ($result->data as $post){
-    if ($post->media_type != $type) {
-      continue;
-    }
-    $counter++;
-    if( $limit == 0 || $counter <= $limit ){
-      $output .= '<div class="instapost">' . 
-      '<a href="' . $post->permalink . '" target="_blank"><img alt="' . (isset($post->caption) ? $post->caption : '') . '" src="' . ($type == 'IMAGE' ? $post->media_url : $post->thumbnail_url) . '"/></a>' .
-      '<p>' . (isset($post->caption) ? $post->caption : '') . '</p>' .
-      '</div>';
-    }
-  }
-  return $output;   
-}
 
 ?>

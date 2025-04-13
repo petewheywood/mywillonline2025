@@ -154,28 +154,26 @@ function checkOrder(orderID) {
 }
 
 function loadFB() {
-  // load up facebook sdk
+  const fbappid = $('meta[property="fb:app_id"]').attr('content');
   window.fbAsyncInit = function() {
-    var fbappid = $('meta[property="fb:app_id"]').attr('content');
     FB.init({
-      appId: fbappid,
-      autoLogAppEvents: true,
-      xfbml: true,
-      version: 'v3.2'
+      appId      : fbappid,
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v11.0'
     });
+      
+    FB.AppEvents.logPageView();   
+      
   };
 
-  (function(d, s, id) {
-    var js,
-      fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) {
-      return;
-    }
-    js = d.createElement(s);
-    js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  })(document, 'script', 'facebook-jssdk');
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));  
 }
 
 // trigger popovers
@@ -2568,7 +2566,7 @@ pageScripts.organisation = function() {
 pageScripts.start = function() {
   var alreadySubmitted = false;
 
-  loadFB(); // so FB login will work
+//   loadFB(); // so FB login will work
 
   /* registerForm part */
   $('#registerForm').validate({
@@ -2670,6 +2668,7 @@ pageScripts.start = function() {
 
   /* FB login part */
 
+/*
   $('#FBLoginButton').click(function(e) {
     e.preventDefault();
     if (FBloginstatus !== 'connected') {
@@ -2693,6 +2692,7 @@ pageScripts.start = function() {
       });
     }
   });
+*/
 
   // disable copy of fields with disablecopy class
   $(document).on('cut copy paste dragstart', 'input.disablecopy', function(e) {
