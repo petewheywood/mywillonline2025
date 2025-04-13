@@ -54,7 +54,7 @@ else
     echo "Deploying files..."
     rsync -azcvi --delete \
       --exclude-from="$EXCLUDE_FILE" \
-      $LOCAL_DIR/ $REMOTE_USER@$REMOTE_SERVER:$REMOTE_DIR/
+      $LOCAL_DIR/ $REMOTE_SERVER:$REMOTE_DIR/
       
     echo "Deployment completed!"
   else
