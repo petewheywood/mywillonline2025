@@ -13,9 +13,6 @@ if [ ! -f "$EXCLUDE_FILE" ]; then
   cat > "$EXCLUDE_FILE" <<EOL
 .git/
 .gitignore
-deploy.sh
-deploy-exclude.txt
-info/
 EOL
 fi
 

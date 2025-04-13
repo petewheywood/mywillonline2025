@@ -46,9 +46,9 @@ if ($_SESSION['products']['singlewill']['priceinctax'] == 0 || $_SESSION['produc
 } else {
 	$title = "Online Will Australia · " . SITENAME;
   $freewill = false;
-  $bannerh1 = "Live your life to fullest. Leave your legacy. Create your will online today.";
+  $bannerh1 = "Live your life to fullest. Safeguard your legacy. Create your will online today.";
 // 	$bannerh2 = '<h2>Secure · Legal Across Australia · 100% Satisfaction Guarantee · 100% Australian</h2>';
-	$bannerh2 = '<h2 style="margin-top: 16vw;">Free updates for life and a Free Enduring Power of Attorney.<br> <br>' . $premiumwillprice . ' for a single will or ' . $mirrorwillprice . ' for a couple.</h2>';
+	$bannerh2 = '<h2 style="margin-top: 20vw;">Free updates for life and a Free Enduring Power of Attorney.<br> <br>' . $premiumwillprice . ' for a single will or ' . $mirrorwillprice . ' for a couple.</h2>';
 }
 
 require("pageincludes/header.php");

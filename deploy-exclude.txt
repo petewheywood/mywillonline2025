@@ -2,4 +2,3 @@
 .gitignore
 deploy.sh
 deploy-exclude.txt
-info/
