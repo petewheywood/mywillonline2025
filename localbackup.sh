@@ -4,7 +4,7 @@
 # Configuration
 SOURCE_DIR="/Users/pete/Dev/mywillonline"
 BACKUP_DIR='/Volumes/Data/My Documents/Sites/mywillonline'
-EXCLUDE_FILE="$SOURCE_DIR/deploy-exclude.txt"
+EXCLUDE_FILE="$SOURCE_DIR/localbackup-exclude.txt"
 
 echo "Starting local backup to $BACKUP_DIR"
 echo "===========================================" 
