@@ -369,11 +369,8 @@ require("pageincludes/header.php");
             <div id="q14" class="panel-collapse collapse<?php echo $noJS ? ' in' : '';?>">
               <div class="panel-body">
         				<p>
-        					Premium Wills purchased at <?php echo $_SESSION['sitename'];?> can be edited and downloaded again as often as you require for life.
+        					Wills purchased at <?php echo $_SESSION['sitename'];?> can be edited and downloaded again as often as you require for life.
         					There are no further costs associated with changing and downloading again.							
-        				</p>
-        				<p>
-          				Quick Wills, however, cannot be updated and re-downloaded free of charge. You would need to create and purchase a new Quick Will. 
         				</p>
               </div>
             </div>
