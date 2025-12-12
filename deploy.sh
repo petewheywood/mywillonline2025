@@ -1,10 +1,36 @@
 #!/bin/bash
 # filepath: /Users/pete/Dev/mywillonline/deploy.sh
 
+# Check parameter
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 {dev|prod}"
+    echo "  dev  - Deploy to development environment (/var/www/dev_mywillonline)"
+    echo "  prod - Deploy to production environment (/var/www/mywillonline)"
+    exit 1
+fi
+
+ENVIRONMENT=$1
+
+# Validate parameter
+if [ "$ENVIRONMENT" != "dev" ] && [ "$ENVIRONMENT" != "prod" ]; then
+    echo "Error: Invalid environment '$ENVIRONMENT'"
+    echo "Usage: $0 {dev|prod}"
+    exit 1
+fi
+
 # Configuration
 LOCAL_DIR="/Users/pete/Dev/mywillonline"
 REMOTE_SERVER="mwo"
-REMOTE_DIR="/var/www/mywillonline"
+
+# Set remote directory based on environment
+if [ "$ENVIRONMENT" = "dev" ]; then
+    REMOTE_DIR="/var/www/dev_mywillonline"
+    echo "Deploying to DEVELOPMENT environment"
+elif [ "$ENVIRONMENT" = "prod" ]; then
+    REMOTE_DIR="/var/www/mywillonline"
+    echo "Deploying to PRODUCTION environment"
+fi
+
 EXCLUDE_FILE="$LOCAL_DIR/deploy-exclude.txt"
 
 # Create exclude file if it doesn't exist
@@ -16,7 +42,7 @@ if [ ! -f "$EXCLUDE_FILE" ]; then
 EOL
 fi
 
-echo "Starting deployment to $REMOTE_SERVER:$REMOTE_DIR"
+echo "Starting deployment to $REMOTE_SERVER:$REMOTE_DIR ($ENVIRONMENT)"
 echo "===========================================" 
 
 # Create temporary directory for comparison
