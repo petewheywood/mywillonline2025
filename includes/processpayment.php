@@ -96,7 +96,7 @@ if ($inctaxtotal == 0 || $_SESSION['admin'] == 1) {
       $map[urldecode($param[0])] = urldecode($param[1]);
     }
     
-    $merchTxnRef     = $vpc_MerchTxnRef; # merchTxnRef not always returned in response if no receipt so get input
+    $merchTxnRef     = null2unknown($map, "vpc_MerchTxnRef") ?: $invoice;; # merchTxnRef not always returned in response if no receipt so get input
     $amount          = null2unknown($map, "vpc_Amount");
     $locale          = null2unknown($map, "vpc_Locale");
     $batchNo         = null2unknown($map, "vpc_BatchNo");
