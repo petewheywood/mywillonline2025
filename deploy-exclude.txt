@@ -6,3 +6,4 @@ info/
 localbackup*
 **/.DS_Store
 .DS_Store
+apache2/
