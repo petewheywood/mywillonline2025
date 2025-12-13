@@ -121,5 +121,11 @@ if (isset($_SESSION['loggedin'])) {
       </div>
     </div>
     <!-- end of header -->
+    <?php if (DEVSITE) { ?>
+    <!-- development site banner -->
+    <div style="background-color: #ff6b35; color: white; text-align: center; padding: 10px; font-weight: bold; font-size: 16px; position: fixed; top: 50px; width: 100%; z-index: 1000; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+      <i class="fa fa-exclamation-triangle"></i> DEVELOPMENT SITE <i class="fa fa-exclamation-triangle"></i>
+    </div>
+    <?php } ?>
     <!-- start of page content -->
-    <div id="pagecontent">
+    <div id="pagecontent" <?php echo DEVSITE ? 'style="margin-top: 50px;"' : ''; ?>>
