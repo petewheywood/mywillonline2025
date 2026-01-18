@@ -51,7 +51,7 @@ if ($inctaxtotal == 0 || $_SESSION['admin'] == 1) {
 } else {
   if ($paytype == 'commweb') {
     updateCBASession($_SESSION['sessionId'], $orderamount);
-    $response = doCBAPayment($invoice, $invoice, $_SESSION['sessionId']);
+    $response = doCBAPayment($orderid, $invoice, $_SESSION['sessionId']);
     // echo "<pre>" . print_r($response, true) . "</pre>";
 
     # get receipt number and result from response array
