@@ -5,8 +5,8 @@ if (!isset($page)) {
   exit;
 }
 
-$title = "Why you must have a will! · " . SITENAME;
-$desc = "Dying without making a will, no matter how old you are, will leave your family and loved ones with unnecessary dramas and additional costs. Creating a valid will makes the distribution of your estate so much easier.";
+$title = "Why You Need a Will | " . SITENAME;
+$desc = "Dying without a will leaves your family with unnecessary costs and dramas. Learn why every Australian needs a valid will and how easy it is to create one online.";
 $keywords = "why you need a last will and testament, why you need a will";
 
 require("pageincludes/header.php");
@@ -59,6 +59,11 @@ require("pageincludes/header.php");
               the persons estate will be a difficult period for all concerned. The whole process is 
               greatly simplified when there is a valid will in the first place.
             </p>
+            <p>
+              Learn more about <a href="how-to-make-a-will-online.html">how to make a will online</a>, 
+              read our <a href="willguidelines.html">guidelines for writing a valid will</a>, or see 
+              <a href="famous-people-intestate.html">what happened to famous people who died without a will</a>.
+            </p>
             <div class="text-center">
               <br>
               <a href="<?php echo isset($_SESSION['loggedin']) ? 'mydocs.html' : 'start.html';?>" class="btn btn-success"><i class="glyphicon glyphicon-pencil"></i> Make Your Will</a><br>
@@ -67,7 +72,7 @@ require("pageincludes/header.php");
           </div>
           <div class="col-sm-4 topmargin leftborder">
             <div class="sidebar">
-              <img class="img-responsive" src="images/kylie.jpg" alt="Kylie died without a will">
+              <img class="img-responsive" src="images/kylie.jpg" alt="Kylie died without a will" loading="lazy">
               <h3>Estranged father receives $1 million</h3>
               <p>
                 Kylie was 22 years of age when she died in a tragic accident. Kylie did not have a Will and her Estate
@@ -86,7 +91,7 @@ require("pageincludes/header.php");
               </p>
             </div>
             <div class="sidebar">
-              <img class="img-responsive" src="images/james.jpg" alt="James died without a will">
+              <img class="img-responsive" src="images/james.jpg" alt="James died without a will" loading="lazy">
               <h3>Devoted step-children lose their inheritance</h3>
               <p>
                 James was born in New Zealand and immigrated to Australia where he moved to a Queensland mining town.

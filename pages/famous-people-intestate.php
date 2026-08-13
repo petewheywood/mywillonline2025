@@ -5,8 +5,8 @@ if (!isset($page)) {
   exit;
 }
 # setup page data
-$title = "Famous people who died without a will";
-$desc = "There are plenty of examples of well known people who died without having a will. Here are several, with some information on their situation and the problems that not having a will had caused for their families.";
+$title = "Famous People Who Died Without a Will | " . SITENAME;
+$desc = "Famous people who died without a will — Bob Marley, Prince, Amy Winehouse and more. See what happened to their estates and why you need a will.";
 $keywords = "dying without a will, intestate, famous people who died intestate, well know celebrities who died without a will.";
 
 # other vars
@@ -29,6 +29,10 @@ require("pageincludes/header.php");
           Dying without a will, or dying &ldquo;intestate&rdquo;, is more common than you may think. There are plenty of examples of well known people
           who died without leaving a will. Some of them were extremely wealthy when they died, and because they didn't have a will, their 
           surviving families often had extensive and expensive legal processes to battle through to get the persons estate sorted out. Here are some examples:
+        </p>
+        <p>
+          Don't make the same mistake — learn <a href="why-you-need-a-will.html">why you need a will</a> and 
+          <a href="how-to-make-a-will-online.html">how easy it is to make one online</a>.
         </p>
         
         

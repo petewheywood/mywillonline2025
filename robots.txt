@@ -1,2 +1,8 @@
 User-agent: *
 Disallow: /notice.html
+Disallow: /admin.html
+Disallow: /includes/
+Disallow: /templates/
+Disallow: /extra/
+
+Sitemap: https://mywillonline.com.au/sitemap.xml

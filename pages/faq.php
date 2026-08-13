@@ -5,8 +5,8 @@ if (!isset($page)) {
   exit;
 }
 
-$title = "Questions About Wills in Australia - " . SITENAME;
-$desc = "You can find the answers to many common questions about Wills in Australia on this page. ";
+$title = "Frequently Asked Questions About Wills | " . SITENAME;
+$desc = "Find answers to common questions about wills in Australia — legal requirements, executors, updating your will, pets, superannuation, and more.";
 $keywords = "questions about Wills";
 
 $noJS = !isset($_SESSION['javascriptEnabled']);
@@ -495,6 +495,151 @@ require("pageincludes/header.php");
         </div>
         <br>&nbsp;<br>
       </section>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Will?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A will is a legal document that clearly sets out how you wish your assets to be distributed when you die. Also, if you have minor children, it nominates a guardian (or guardians) who will care for them after your death."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long will it take me to make my will?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It could take you as little as 5 minutes if you have a partner and wish to leave 100% of your estate to them. In general, most customers take around 30-40 minutes to complete entering their information and to download their completed will document package."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a Will?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you die without a will, your estate is divided up according to standard intestacy rules. It would be far better for you to decide who gets what rather than have it divided according to a government imposed legal formula. If your only living relatives are no closer than cousins, your entire estate will pass to the government. Making a Will is the only way you can ensure your assets will be distributed according to your wishes when you die."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is required for my will to be legally valid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your will is legally valid if: you are 18 years or older, your will is in writing (handwritten, typed or printed), it is signed by you in the presence of at least 2 witnesses who also sign the will, you have testamentary capacity (understand the nature of making a will, the extent of your estate, and who has a reasonable claim), and there is no undue influence, coercion or duress."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What events will make my will invalid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Events that will make a previously valid will invalid include getting married and getting divorced. Should either of these events happen, you need to make another will."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I update my will?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You should revisit your will every 5-7 years and update it if: your financial circumstances change, your family circumstances change (marriage, new relationship, divorce, children), a beneficiary dies, an executor becomes unsuitable, you sell or give away assets mentioned in your will, you buy or inherit significant assets, or you begin to hold assets your will cannot deal with."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the executor of a will?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An executor is the person or organisation the will maker has selected to administer the estate, within the terms of the will, after the death of the will maker. The executor should be someone who understands the financial, legal and taxation obligations of the will and the estate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often can I change my will?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your circumstances change considerably, you should re-write your will. If you get married or divorced, your current will is invalidated and you must re-write it. Your new will supersedes anything written in an earlier will."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I provide for my pets in my Will?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the law, a pet is considered your property and cannot be a beneficiary. However, you can make provision for them by allocating a carer, which may be an individual or an organisation such as an animal charity. You would typically provide a legacy (cash gift) or share of your estate to the carer for ongoing care."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I die without a will and I am in a de-facto relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the law, your de-facto partner is considered your legal spouse and may be entitled to a share of your estate. But the onus is on them to prove the de-facto relationship if there are disputes. To be certain your partner receives their share, you need to create a will that includes them specifically by name."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my will be contested?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. People who have been left out of a will, or feel they should have received a larger share, may bring a claim if they are an eligible person. Eligible persons include spouses, de facto spouses, former spouses, children, stepchildren, grandchildren and other dependants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my superannuation included in my estate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In most cases, your superannuation is not included in the estate. The superannuation company will decide how your benefit is paid out. You should consider making a binding nomination with your super fund to nominate beneficiaries of your choice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where should I keep my will?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Store the original of your will in a safe place, and tell those close to you where it is stored. Let your executors know where your will is stored. You may make as many copies as you like. If the will cannot be located after your death, you are essentially dying intestate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If I wish to change my will, do I need to pay again?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wills purchased at My Will Online can be edited and downloaded again as often as you require for life. There are no further costs associated with changing and downloading again."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is an Enduring Power of Attorney?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An enduring power of attorney is a legal agreement that enables a person to appoint a trusted person to make financial and/or property decisions on their behalf. Unlike an ordinary power of attorney, it continues to operate even if the donor loses full legal capacity. It ceases to have effect when the person dies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why should I have an Enduring Power of Attorney?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You may not always be able to make decisions when you need to due to illness or disability. Having an enduring power of attorney allows your estate to be managed by someone you trust if you are no longer able to manage it yourself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is an Executor's Memorandum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Executor's Memorandum is a document that accompanies your will which provides your executor with information to help them administer your wishes. It typically includes names and contact details of beneficiaries and guardians, asset and liability lists, bank account numbers, life insurance policies, and other useful information."
+          }
+        }
+      ]
+    }
+    </script>
 <?php
   require("pageincludes/footer.php");
 ?>

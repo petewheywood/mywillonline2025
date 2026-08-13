@@ -37,14 +37,14 @@ $mirrorwillprice = '$' . ($_SESSION['products']['mirrorwill']['priceinctax'] + $
 
 // display meta data and headings based upon whether a product is free of not
 $keywords = "wills, will kit, last will and testament, online will, online wills, internet wills, online will kit";
-$desc = (QUICKWILL ? 'From ' . $quickwillprice : $premiumwillprice) . ' · Rating ' . $aggregaterating . ' from ' . $numreviews . ' reviews · Free updates for life · Free Enduring Power of Attorney · 100% Satisfaction guarantee · Provision for your pets . Executors Memorandum';
+$desc = 'Create a legally valid Australian will online in minutes for ' . (QUICKWILL ? 'from ' . $quickwillprice : $premiumwillprice) . '. Free Enduring Power of Attorney, free lifetime updates, ' . $aggregaterating . ' stars from ' . $numreviews . ' reviews.';
 if ($_SESSION['products']['singlewill']['priceinctax'] == 0 || $_SESSION['products']['quickwill']['priceinctax'] == 0) {
-	$title = "FREE Online Will - Australia · " . SITENAME;
+	$title = "FREE Online Will - Australia | " . SITENAME;
   $freewill = true;
   $bannerh1 = 'Make a Will Online for FREE<br><small>Free Last Will and Testament</small>';
 	$bannerh2 = '<h2>Secure · Legal Across Australia · 100% Satisfaction Guarantee · 100% Australian</h2>';
 } else {
-	$title = "Online Will Australia · " . SITENAME;
+	$title = "Make a Will Online in Australia | " . $premiumwillprice . " Legal Will Kit | " . SITENAME;
   $freewill = false;
   $bannerh1 = "Live your life to fullest. Safeguard your legacy. Create your will online today.";
 // 	$bannerh2 = '<h2>Secure · Legal Across Australia · 100% Satisfaction Guarantee · 100% Australian</h2>';
@@ -61,7 +61,7 @@ require("pageincludes/header.php");
         <h1><?php echo $bannerh1 ;?></h1>
         <?php echo $bannerh2 ;?>
       </div>
-      <img src="images/hero.jpg" class="img-responsive" alt="Importance of a Will">
+      <img src="images/hero.jpg" class="img-responsive" alt="Make your will online to protect your family in Australia">
     </section>
 
     <section class="container-fluid text-center">
@@ -188,7 +188,7 @@ foreach ($feedbacks as $feedback) {
                 and so on, we suggest you consider using an estate planning solicitor to assist you with writing your will.
               </p>
           </div>
-        </div
+        </div>
       </div>
     </section>
     

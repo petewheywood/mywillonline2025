@@ -21,7 +21,7 @@ $aggregaterating = round(($avg_easeofuse + $avg_valueformoney + $avg_wouldrecomm
 
 $keywords = "free wills, wills, free will kit, last will and testament, online will, online wills, internet wills, online will kit";
 $desc = 'We make it so easy to make your will online. Our customers rate us ' . $aggregaterating . ' from ' . $numreviews . ' reviews · Free Will available · Free updates for life · 100% Satisfaction guarantee · Free Enduring Power of Attorney · Provision for your pets . Executors Memorandum';
-$title = "How to make a will online";
+$title = "How to Make a Will Online in Australia | " . SITENAME;
 
 require("pageincludes/header.php");
 
@@ -30,7 +30,7 @@ require("pageincludes/header.php");
       <div class="caption" style="padding-top: 20px;">
         <h1>How to make a will online</h1>
       </div>
-      <img src="images/hero.jpg" class="img-responsive" alt="Importance of a Will">
+      <img src="images/hero.jpg" class="img-responsive" alt="How to make a will online in Australia">
     </section>
 
     <section class="container-fluid" id="validwill">    
@@ -134,6 +134,58 @@ require("pageincludes/header.php");
       </div>
     </section>
             
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Make a Will Online in Australia",
+        "description": "Step-by-step guide to creating a legal will online at My Will Online.",
+        "totalTime": "PT40M",
+        "estimatedCost": {
+          "@type": "MonetaryAmount",
+          "currency": "AUD",
+          "value": "<?php echo $_SESSION['products']['singlewill']['priceinctax'];?>"
+        },
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Create an account",
+            "text": "Register by clicking Get Started and entering your name, email address and a password."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Enter your personal information",
+            "text": "Enter your full name, address, whether you have a partner, children, and pets."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Add your beneficiaries",
+            "text": "Enter details about your beneficiaries — those who you wish to receive something in your Will."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Nominate your executors",
+            "text": "Complete the details for who will be your Executor or Executors — the person who will administer your will after your death."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Allocate your estate",
+            "text": "Allocate your remaining property (estate) to your beneficiaries by percentage or specific gifts."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Purchase and download",
+            "text": "Preview your will, then purchase and download your complete will document package to your device."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Sign in front of witnesses",
+            "text": "Print and sign your will in the presence of two witnesses (over 18, not beneficiaries) who must also sign."
+          }
+        ]
+      }
+    </script>
+
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",

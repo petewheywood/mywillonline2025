@@ -5,8 +5,8 @@ if (!isset($page)) {
     exit;
 }
 
-$title = "Enduring Guardianship - " . SITENAME;
-$desc = "An enduring guardianship is a document which gives someone you trust power over your personal and health care decisions if you are unable to do so yourself.";
+$title = "Enduring Guardianship | " . SITENAME;
+$desc = "An enduring guardianship lets someone you trust make personal and health care decisions on your behalf. Free with every will at My Will Online.";
 $keywords = "enduring guardianship";
 
 require("pageincludes/header.php");

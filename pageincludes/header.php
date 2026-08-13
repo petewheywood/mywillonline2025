@@ -20,7 +20,6 @@
     <link href="css/font-awesome.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
     <meta name="description" content="<?php echo $desc; ?>" />
-    <meta name="keywords" content="<?php echo $keywords; ?>" />
     <title><?php echo $title; ?></title>
     <style type="text/css">
       .fouc {visibility: hidden;}
@@ -44,8 +43,7 @@
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/date.js"></script>
     <script src="js/bs.js"></script>
-    <script src="js/site.js"></script>   
-    <!-- favicon -->
+    <script src="js/site.js"></script>
     <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="images/favicon.ico" rel="icon" type="image/x-icon">
     <!-- mobile setup -->
@@ -65,6 +63,27 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+<?php if ($page != 'home') { ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "<?php echo url_origin();?>"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "<?php echo $pageTitlePrefix ? rtrim($pageTitlePrefix, ' -|') : ucfirst($page);?>"
+        }
+      ]
+    }
+    </script>
+<?php } ?>
   </head>
   <body>
     <!-- FB code -->
@@ -79,7 +98,7 @@
           <span class="icon-bar"></span>
         </button>
         <a style='text-decoration: none;' href="/">
-          <img id="logo" src="images/logo.svg" alt="Logo" title="<?php echo $_SESSION['sitename']; ?>">
+          <img id="logo" src="images/logo.svg" alt="My Will Online - Australian Online Will Kit" title="<?php echo $_SESSION['sitename']; ?>">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse-1">

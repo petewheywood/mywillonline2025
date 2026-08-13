@@ -5,8 +5,8 @@ if (!isset($page)) {
   exit;
 }
 
-$title = "Will Guidelines · " . SITENAME;
-$desc = "There are a number of important points to consider when making a robust and legally valid will. For example, it's important to choose a good executor, to consider blended family situations, and to understand how your superannuation and your will work together.";
+$title = "Will Guidelines | " . SITENAME;
+$desc = "Important guidelines for writing a valid will in Australia — choosing executors, blended families, superannuation, and more.";
 $keywords = "last will and testament kit, online will kit, valid will, legally valid will, contesting a will";
 
 require("pageincludes/header.php");

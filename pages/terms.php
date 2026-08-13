@@ -5,7 +5,7 @@ if (!isset($page)) {
   exit;
 }
 
-$title = "Terms of Use for " . SITENAME;
+$title = "Terms of Use | " . SITENAME;
 $desc = "Terms of use and terms of service for " . SITENAME . ".";
 $keywords = "last will and testament, online will, online wills, internet wills, online will kit";
 

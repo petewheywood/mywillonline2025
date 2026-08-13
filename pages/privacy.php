@@ -4,7 +4,7 @@ if (!isset($page)) {
   header("Location: /");
   exit;
 }
-$title = "Privacy Statement - " . SITENAME;
+$title = "Privacy Statement | " . SITENAME;
 $desc = SITENAME . " takes your privacy seriously, and has implemented this privacy policy and internal policies and practices to keep your personal and financial information secure.";
 $keywords = "privacy statement";
 require("pageincludes/header.php");

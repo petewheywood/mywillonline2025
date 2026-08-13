@@ -5,8 +5,8 @@ if (!isset($page)) {
   exit;
 }
 
-$title = "Including Pets in your Will - " . SITENAME;
-$desc = "It is important to consider what happens to your pets when you die. They cannot receive an inheritance, but you can provide a gift to someone you trust to care for your pets.";
+$title = "Pets in Your Will | " . SITENAME;
+$desc = "Provide for your pets in your will. Appoint a carer and leave a gift for their ongoing care. My Will Online makes it easy to include pets in your will.";
 $keywords = "enduring power of attorney";
 
 require("pageincludes/header.php");

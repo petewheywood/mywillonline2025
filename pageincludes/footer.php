@@ -34,7 +34,7 @@
             <a href="about-epog.html">Enduring Guardianships</a><br>
             <a href="famous-people-intestate.html">Famous people with no Will</a>
           </div>
-          <div class="col-sm-4"><img style="margin-top:60px;" src="images/mc_visa.png" alt="Pay with Mastercard and VISA" /></div>
+          <div class="col-sm-4"><img style="margin-top:60px;" src="images/mc_visa.png" alt="Pay with Mastercard and VISA" loading="lazy" /></div>
         </div>        
 <?php if (false && $_SESSION['products']['singlewill']['priceinctax'] != 0) { ?>
         <div class="row paytypes">

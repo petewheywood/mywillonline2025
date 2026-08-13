@@ -14,7 +14,7 @@ $avg_valueformoney = round($ratings['valueformoney'], 1);
 $avg_wouldrecommend = round($ratings['wouldrecommend'], 1);
 $aggregaterating = round(($avg_easeofuse + $avg_valueformoney + $avg_wouldrecommend)/3,1);
 
-$title = "Online Will Kit Reviews · " . SITENAME;
+$title = "Customer Reviews | " . SITENAME;
 $desc = "Customer Reviews for our Online Will Kit · Free updates for life · 100% Satisfaction Guarantee · Free Enduring Power of Attorney · Provision for Your Pets · Executors Memo";
 $keywords = "wills, will kit, will, online will kit, Australian Will Online, how do I make a will, feedback, rating, customers";
 

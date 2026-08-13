@@ -5,8 +5,8 @@ if (!isset($page)) {
     exit;
 }
 
-$title = "Enduring Power of Attorney - " . SITENAME;
-$desc = "An enduring power of attorney is a document which gives someone you trust power over your financial affairs if you lose the mental capacity to do so yourself.";
+$title = "Enduring Power of Attorney | " . SITENAME;
+$desc = "An enduring power of attorney lets someone you trust manage your financial affairs if you lose capacity. Free with every will at My Will Online.";
 $keywords = "enduring power of attorney";
 
 require("pageincludes/header.php");
@@ -100,6 +100,12 @@ require("pageincludes/header.php");
           your original enduring power of attorney is stored, so they can access it 
           if required.
         </p>
+        <h3>Related Information</h3>
+        <ul>
+          <li><a href="about-epog.html">Enduring Guardianship</a> — for personal and health care decisions</li>
+          <li><a href="faq.html">Frequently Asked Questions</a> — common questions about wills and estate planning</li>
+          <li><a href="how-to-make-a-will-online.html">How to make a will online</a> — step-by-step guide</li>
+        </ul>
       </section>
 <?php
   require("pageincludes/footer.php");

@@ -6,8 +6,8 @@ if (!isset($page)) {
   exit;
 }
 
-$title = "When Should I Change My Will?";
-$desc = "It is important to change your Will when a major life event occurs, such as a marriage, a divorce, a separation, the birth of a child, the death of a relative or a change in your financial situation.";
+$title = "When Should I Change My Will? | " . SITENAME;
+$desc = "Update your will after major life events — marriage, divorce, birth of children, or changes to finances. Free lifetime updates at My Will Online.";
 $keywords = "changing a will in australia, when do I need to change my will, reasons for changing a will, how to change a will in australia";
 
 require("pageincludes/header.php");
