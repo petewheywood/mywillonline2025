@@ -7,3 +7,5 @@ localbackup*
 **/.DS_Store
 .DS_Store
 apache2/
+Dockerfile
+docker-compose.yml
