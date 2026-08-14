@@ -2,6 +2,7 @@
 .gitignore
 deploy.sh
 deploy-exclude.txt
+restorebackup.sh
 info/
 localbackup*
 **/.DS_Store
@@ -9,3 +10,5 @@ localbackup*
 apache2/
 Dockerfile
 docker-compose.yml
+includes/parms.*
+daily-backup-*.sql

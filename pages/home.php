@@ -96,7 +96,7 @@ foreach ($feedbacks as $feedback) {
 ?>
             <div class="row <?php echo $i++ == 0 ? 'active' : 'inactive';?>" itemprop="review" itemscope itemtype="https://schema.org/Review">
               <div class="col-sm-6">
-                <span itemprop="author"><?php echo $feedback['name'];?></span>
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name"><?php echo $feedback['name'];?></span></span>
                 <br>
                 <small>
                   <em>

@@ -60,7 +60,7 @@ foreach ($feedbacks as $feedback) {
             <div class="row">
               <div class="col-sm-5">
                 <div>
-                  <span itemprop="author"><?php echo $feedback['name'];?></span><br>
+                  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name"><?php echo $feedback['name'];?></span></span><br>
                   <small><em><?php echo $location;?> - <time itemprop="datePublished" datetime="<?php echo $receivedDate;?>"><?php echo showdate($feedback['received']);?></time></em></small>
                   <div class="hidden" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
             				<meta content="5" itemprop="bestRating">

@@ -20,7 +20,7 @@ fi
 
 # Configuration
 LOCAL_DIR="/Users/pete/Dev/mywillonline"
-REMOTE_SERVER="mwo"
+REMOTE_SERVER="mwoserver"
 
 # Set remote directory based on environment
 if [ "$ENVIRONMENT" = "dev" ]; then
@@ -44,6 +44,21 @@ fi
 
 echo "Starting deployment to $REMOTE_SERVER:$REMOTE_DIR ($ENVIRONMENT)"
 echo "===========================================" 
+
+# Backup remote target folder before deploying
+BACKUP_DIR="~/backups/mywillonline-${ENVIRONMENT}-$(date +%Y%m%d-%H%M%S)"
+echo "Backing up remote $REMOTE_DIR to $BACKUP_DIR..."
+ssh $REMOTE_SERVER "mkdir -p $BACKUP_DIR && cp -a $REMOTE_DIR/. $BACKUP_DIR/"
+if [ $? -eq 0 ]; then
+    echo "Backup created: $BACKUP_DIR"
+else
+    echo "ERROR: Backup failed!"
+    read -p "Continue without backup? [y/N] " response
+    if [[ ! "$response" =~ ^([yY][eE][sS]|[yY])$ ]]; then
+        echo "Deployment cancelled."
+        exit 1
+    fi
+fi
 
 # Create temporary directory for comparison
 TEMP_DIR=$(mktemp -d)
