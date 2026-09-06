@@ -385,9 +385,14 @@ function passwordReset($uniqueKey)
       $_SESSION['pwresetdata']['firstname'] = $result['firstname'];
       $_SESSION['pwresetdata']['surname'] = $result['surname'];
     }
+    $dbh = null;
+    header("Location: /resetpassword.html");
+    exit;
   }
+  # key not found or expired - don't show the reset form
   $dbh = null;
-  header("Location: /resetpassword.html");
+  header("Location: /");
+  exit;
 }
 
 
