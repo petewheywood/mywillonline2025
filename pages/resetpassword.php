@@ -24,7 +24,7 @@ require("pageincludes/header.php");
               <label for="password">Password to login</label>
               <input id="password" name="password" type="password" class="form-control">                    
           </div>
-          <div class="form-group"
+          <div class="form-group">
               <label for="password2">Confirm password</label>
               <input id="password2" name="password2" type="password" class="form-control">                    
           </div>

@@ -155,10 +155,9 @@ if ($dbh) {
     updateOrderData();  # store in DB  
   }
   
-  # check for password reset request
+  # check for password reset request - passwordReset() always redirects and exits
   if (isset($_SESSION['getVars']['pwreset'])) {
     passwordReset($_SESSION['getVars']['pwreset']);
-    unset($_SESSION['getVars']['pwreset']);
   }
   
   # what was the last page we displayed (used to return to previous page links)

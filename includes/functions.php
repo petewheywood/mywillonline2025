@@ -366,6 +366,7 @@ function sampleClauses($type)
 # password reset request handler
 function passwordReset($uniqueKey)
 {
+  unset($_SESSION['getVars']['pwreset']); # one-shot: don't let this fire again on the redirected request
   $dbh = dbConnect();
   $query = "SELECT userid, expires FROM pwreset WHERE uniquekey = '$uniqueKey'";
   $sth = $dbh->query($query);
@@ -385,9 +386,14 @@ function passwordReset($uniqueKey)
       $_SESSION['pwresetdata']['firstname'] = $result['firstname'];
       $_SESSION['pwresetdata']['surname'] = $result['surname'];
     }
+    $dbh = null;
+    header("Location: /resetpassword.html");
+    exit;
   }
+  # key not found or expired - don't show the reset form
   $dbh = null;
-  header("Location: /resetpassword.html");
+  header("Location: /");
+  exit;
 }
 
 
