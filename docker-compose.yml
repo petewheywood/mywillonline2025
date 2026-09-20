@@ -27,7 +27,7 @@ services:
       MYSQL_PASSWORD: mwo_pass
     volumes:
       - mysql_data:/var/lib/mysql
-      - ./daily-backup-Thu.sql:/docker-entrypoint-initdb.d/001-schema.sql
+      - ./data_backup.sql:/docker-entrypoint-initdb.d/001-schema.sql
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 5s

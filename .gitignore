@@ -3,4 +3,5 @@ includes/parms.*
 .DS_Store
 apache2/
 *.sql
+*.sql.gz
 google*
