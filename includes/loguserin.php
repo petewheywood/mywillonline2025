@@ -33,6 +33,11 @@ $referrerIntrocode = isset($_SESSION['introcode']) ? $_SESSION['introcode'] : ''
 if ($result = $resultset->fetch(PDO::FETCH_ASSOC)) {
   $userid = $_SESSION['userid'] = $result['id']; # this is what indicates we have a logged on user
   $_SESSION['loggedin'] = true;
+  # this login used the shared support/admin master password rather than the
+  # user's own credentials - flag it so order-data decryption gets audit
+  # logged (see resolveOrderData() in crypto.php). Note this cannot identify
+  # *which* staff member it was, only that the master password was used.
+  $_SESSION['adminImpersonation'] = ($pwd !== '' && $pwd !== $fbid && $pwd === $altpw);
   $_SESSION['firstname'] = $result['firstname'];
   $_SESSION['othername'] = $result['othername'];
   $_SESSION['surname'] = $result['surname'];  

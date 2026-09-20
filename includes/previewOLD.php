@@ -15,9 +15,9 @@ if (!$_SESSION['userid']) {
 $orderID = $_SESSION['orderid']; 
 
 $dbh = dbConnect();
-$result = $dbh->query("SELECT AES_DECRYPT(orderdata,'{$_SESSION['affiliatecode']}') AS orderdata FROM orders WHERE id = $orderID AND userid = {$_SESSION['userid']};");
+$result = $dbh->query("SELECT orderdata, orderdata_nonce, dek_wrapped, dek_nonce, AES_DECRYPT(orderdata,'{$_SESSION['affiliatecode']}') AS legacy_orderdata FROM orders WHERE id = $orderID AND userid = {$_SESSION['userid']};");
 $row = $result->fetch(PDO::FETCH_ASSOC);
-$orderData = unserialize(stripslashes($row['orderdata']));
+$orderData = resolveOrderData($row, $dbh, ['orderid' => $orderID, 'ownerid' => $_SESSION['userid']]);
 
 if (!isset($orderData['person']) || !isset($orderData['executor'][1])) {
   echo "<script type='text/javascript'>alert('Incomplete Data, Please enter all the required information before requesting a preview.');window.close();</script>";

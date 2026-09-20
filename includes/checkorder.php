@@ -18,7 +18,7 @@ if (!isset($_SESSION['userid']) || !($_SESSION['userid'] > 0)) {
   # get the orderdata for the user/order
   $orderID = $_GET['orderid'];
   $dbh = dbConnect();
-  $query = "SELECT o.extaxamount, o.discountamount, o.paid, o.reason, o.paiddate, CONCAT(DATE_ADD(DATE(o.paiddate), INTERVAL " . PRODUCTEXPIRY . " MONTH), ' 23:59:59') AS expirydate, AES_DECRYPT(o.orderdata,'{$_SESSION['affiliatecode']}') AS orderdata, o.productid, o.mirrorof, p.shortname, p.name, p.template FROM orders o JOIN product p ON (p.id = o.productid) WHERE o.id = ";
+  $query = "SELECT o.extaxamount, o.discountamount, o.paid, o.reason, o.paiddate, CONCAT(DATE_ADD(DATE(o.paiddate), INTERVAL " . PRODUCTEXPIRY . " MONTH), ' 23:59:59') AS expirydate, o.orderdata, o.orderdata_nonce, o.dek_wrapped, o.dek_nonce, AES_DECRYPT(o.orderdata,'{$_SESSION['affiliatecode']}') AS legacy_orderdata, o.productid, o.mirrorof, p.shortname, p.name, p.template FROM orders o JOIN product p ON (p.id = o.productid) WHERE o.id = ";
   $result = $dbh->query($query . $orderID);
   $row = $result->fetch(PDO::FETCH_ASSOC);
   $now = time();
@@ -51,7 +51,7 @@ if (!isset($_SESSION['userid']) || !($_SESSION['userid'] > 0)) {
       }
     }
     # load orderdata
-    $_SESSION['orderData'] = unserialize(stripslashes($row['orderdata']));
+    $_SESSION['orderData'] = resolveOrderData($row, $dbh, ['orderid' => $orderID, 'ownerid' => $_SESSION['userid']]);
     $_SESSION['orderid'] = $orderID;
     $_SESSION['orderpaid'] = $row['paid'] == 1 ? true : false;
     $_SESSION['orderextaxamount'] = $row['extaxamount'];

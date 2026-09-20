@@ -34,7 +34,11 @@ SELECT
   o.id,
   o.createdate,
   o.modifydate,
-  AES_DECRYPT(o.orderdata, u.affiliatecode) as orderdata,
+  o.orderdata,
+  o.orderdata_nonce,
+  o.dek_wrapped,
+  o.dek_nonce,
+  AES_DECRYPT(o.orderdata, u.affiliatecode) as legacy_orderdata,
   o.productid,
   p.name as productname,
   p.shortname,
@@ -109,7 +113,7 @@ if ($_SESSION['ordercount']['all'] == 0) {
     $product = $order['shortname'];
     $paidorders = $order['paid'] == 1 ? true : $paidorders; # flag used to show social links
     isset($_SESSION['ordercount'][$product]) ? $_SESSION['ordercount'][$product]++ : $_SESSION['ordercount'][$product] = 0; // count for each type of product order
-    $orderData = unserialize(stripslashes($order['orderdata']));
+    $orderData = resolveOrderData($order, $dbh, ['orderid' => $order['id'], 'ownerid' => $userid]);
     if ($order['paid'] == 0) {
       $orderStatus = "IN PROGRESS";
       $paiddate = '';
@@ -138,12 +142,22 @@ if ($_SESSION['ordercount']['all'] == 0) {
             unset($newOrderData['asset']);
             unset($newOrderData['liability']);
             $product = PRODUCT;
-            $newOrderDataString = addslashes(serialize($newOrderData));
-            $query = "
-              INSERT INTO orders (createdate, modifydate, userid, paid, paiddate, paidtxnid, invoice, orderdata, mirrorof, productid) 
-              VALUES (NOW(), NOW(), {$_SESSION['userid']}, 1, '{$order['paiddate']}', '{$order['paidtxnid']}', '{$order['invoice']}', AES_ENCRYPT('$newOrderDataString','{$_SESSION['affiliatecode']}'), {$order['id']}, 1);
-            ";
-            $dbh->exec($query);
+            $newOrderDataString = serialize($newOrderData);
+            $enc = encryptOrderData($newOrderDataString);
+            $insertStmt = $dbh->prepare("
+              INSERT INTO orders (createdate, modifydate, userid, paid, paiddate, paidtxnid, invoice, orderdata, orderdata_nonce, dek_wrapped, dek_nonce, mirrorof, productid)
+              VALUES (NOW(), NOW(), :userid, 1, :paiddate, :paidtxnid, :invoice, :ciphertext, :data_nonce, :dek_wrapped, :dek_nonce, :mirrorof, 1);
+            ");
+            $insertStmt->bindValue(':userid', $_SESSION['userid'], PDO::PARAM_INT);
+            $insertStmt->bindValue(':paiddate', $order['paiddate'], PDO::PARAM_STR);
+            $insertStmt->bindValue(':paidtxnid', $order['paidtxnid'], PDO::PARAM_STR);
+            $insertStmt->bindValue(':invoice', $order['invoice'], PDO::PARAM_STR);
+            $insertStmt->bindValue(':ciphertext', $enc['ciphertext'], PDO::PARAM_LOB);
+            $insertStmt->bindValue(':data_nonce', $enc['data_nonce'], PDO::PARAM_LOB);
+            $insertStmt->bindValue(':dek_wrapped', $enc['dek_wrapped'], PDO::PARAM_LOB);
+            $insertStmt->bindValue(':dek_nonce', $enc['dek_nonce'], PDO::PARAM_LOB);
+            $insertStmt->bindValue(':mirrorof', $order['id'], PDO::PARAM_INT);
+            $insertStmt->execute();
             $newOrderID = $dbh->lastInsertId();
             $dbh->exec("UPDATE orders SET mirrorof = $newOrderID WHERE id = {$order['id']};"); // update the original order so they are mirrors of each other
             

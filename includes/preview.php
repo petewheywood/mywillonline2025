@@ -15,12 +15,10 @@ if (!isset($_SESSION['userid'])) {
 if (!($orderID = $_SESSION['orderid'])) $orderID = $_SESSION['getVars']['orderid']; 
 
 // $dbh = dbConnect();
-$result = $dbh->query("SELECT AES_DECRYPT(orderdata,'{$_SESSION['affiliatecode']}') AS orderdata FROM orders WHERE id = $orderID AND userid = {$_SESSION['userid']};");
+$result = $dbh->query("SELECT orderdata, orderdata_nonce, dek_wrapped, dek_nonce, AES_DECRYPT(orderdata,'{$_SESSION['affiliatecode']}') AS legacy_orderdata FROM orders WHERE id = $orderID AND userid = {$_SESSION['userid']};");
 $row = $result->fetch(PDO::FETCH_ASSOC);
+$orderData = resolveOrderData($row, $dbh, ['orderid' => $orderID, 'ownerid' => $_SESSION['userid']]);
 $dbh = null;
-
-/* now create the documents */
-$orderData = unserialize(stripslashes($row['orderdata']));
 
 if (!isset($orderData['person'])) {
   echo "Invalid Data<script type='text/javascript'>setTimeout('window.close();', 1000);</script>";

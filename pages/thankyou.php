@@ -28,10 +28,10 @@ $paymentgw = (isset($_SESSION['getVars']['paymentgw'])) ? $_SESSION['getVars']['
 $orderid = isset($_SESSION['getVars']['item_number']) ? $_SESSION['getVars']['item_number'] : $_SESSION['orderid'];
 
 # get orderData, etc
-$query = "SELECT o.extaxamount, o.discountamount, o.paid, AES_DECRYPT(o.orderdata,'{$_SESSION['affiliatecode']}') AS orderdata, o.productid, p.shortname, p.name, p.template FROM orders o JOIN product p ON (p.id = o.productid) WHERE o.id = $orderid;";
+$query = "SELECT o.extaxamount, o.discountamount, o.paid, o.orderdata, o.orderdata_nonce, o.dek_wrapped, o.dek_nonce, AES_DECRYPT(o.orderdata,'{$_SESSION['affiliatecode']}') AS legacy_orderdata, o.productid, p.shortname, p.name, p.template FROM orders o JOIN product p ON (p.id = o.productid) WHERE o.id = $orderid;";
 $result = $dbh->query($query);
 $row = $result->fetch(PDO::FETCH_ASSOC);
-$_SESSION['orderData'] = unserialize(stripslashes($row['orderdata']));
+$_SESSION['orderData'] = resolveOrderData($row, $dbh, ['orderid' => $orderid, 'ownerid' => $_SESSION['userid']]);
 $_SESSION['orderpaid'] = $row['paid'] == 1 ? 1 : 0;
 $_SESSION['orderextaxamount'] = $row['extaxamount'];
 $_SESSION['orderdiscountamount'] = $row['discountamount'];

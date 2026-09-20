@@ -1,6 +1,7 @@
 <?php
 # get the parms
 require_once('parms.php');
+require_once('crypto.php');
 
 function url_origin()
 {
@@ -293,7 +294,7 @@ function processPostVars($value)
   }
 }
 
-# update the database with encrypted orderdata, use their password as encryption key
+# update the database with envelope-encrypted orderdata (see includes/crypto.php)
 function updateOrderData()
 {
   # update the order table with the orderdata so far
@@ -321,7 +322,7 @@ function updateOrderData()
       */
     }
   }
-  $orderdata = addslashes(serialize($orderdata));
+  $orderdata = serialize($orderdata);
   # update session copy of extaxprice
   $_SESSION['orderextaxamount'] = $priceextax;
   # calculate discount if they have an introcode
@@ -330,8 +331,15 @@ function updateOrderData()
     $discamount = round($priceextax * $_SESSION['discount'], 2);
   # update session discount amount
   $_SESSION['orderdiscountamount'] = $discamount;
-  $updateQuery = "UPDATE orders SET orderdata = AES_ENCRYPT('$orderdata','{$_SESSION['affiliatecode']}'), modifydate = NOW(), tabprogress = '$tabprogress' WHERE id = " . $orderID . ";";
-  $result = $dbh->exec($updateQuery);
+  $enc = encryptOrderData($orderdata);
+  $updateStmt = $dbh->prepare("UPDATE orders SET orderdata = :ciphertext, orderdata_nonce = :data_nonce, dek_wrapped = :dek_wrapped, dek_nonce = :dek_nonce, modifydate = NOW(), tabprogress = :tabprogress WHERE id = :orderid;");
+  $updateStmt->bindParam(':ciphertext', $enc['ciphertext'], PDO::PARAM_LOB);
+  $updateStmt->bindParam(':data_nonce', $enc['data_nonce'], PDO::PARAM_LOB);
+  $updateStmt->bindParam(':dek_wrapped', $enc['dek_wrapped'], PDO::PARAM_LOB);
+  $updateStmt->bindParam(':dek_nonce', $enc['dek_nonce'], PDO::PARAM_LOB);
+  $updateStmt->bindParam(':tabprogress', $tabprogress, PDO::PARAM_STR);
+  $updateStmt->bindParam(':orderid', $orderID, PDO::PARAM_INT);
+  $result = $updateStmt->execute();
   # update the financial data but only if not already paid for
   $extaxtotal = round($priceextax - $discamount, 2);
   $taxamount = $extaxtotal * TAX;
@@ -822,10 +830,10 @@ function sendOrderEmail($orderid, $paymentgw, $couponcode = '')
   $firstname = rtrim($row['firstname']);
   $surname = rtrim($row['surname']);
   $email = $row['emailaddress'];
-  $query = "SELECT extaxamount, taxamount, discountamount, AES_DECRYPT(orderdata,'$affiliatecode') AS orderdata FROM orders WHERE id = $orderid;";
+  $query = "SELECT extaxamount, taxamount, discountamount, orderdata, orderdata_nonce, dek_wrapped, dek_nonce, AES_DECRYPT(orderdata,'$affiliatecode') AS legacy_orderdata FROM orders WHERE id = $orderid;";
   $result = $dbh->query($query);
   $row = $result->fetch(PDO::FETCH_ASSOC);
-  $orderData = unserialize(stripslashes($row['orderdata']));
+  $orderData = resolveOrderData($row, $dbh, ['orderid' => $orderid, 'ownerid' => $userid]);
   $priceextax = $row['extaxamount'];
   $discamount = $row['discountamount'];
   $extaxtotal = $priceextax - $discamount;
