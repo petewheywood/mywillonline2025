@@ -1,5 +1,5 @@
 <?php
-$id = $_REQUEST['id'];
+$id = (int) ($_REQUEST['id'] ?? 0);
 require_once("../includes/functions.php");
 # log email open into emailsent
 if ($id > 0) {
