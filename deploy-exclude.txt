@@ -12,3 +12,11 @@ Dockerfile
 docker-compose.yml
 includes/parms.*
 daily-backup-*.sql
+*.sql
+*.sql.gz
+data_backup.sql
+detect-php2shell.sh
+php2shell-followup.sh
+start_local.sh
+stop_local.sh
+refresh-local-db.sh
