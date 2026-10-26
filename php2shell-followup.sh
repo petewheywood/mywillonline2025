@@ -149,16 +149,17 @@ else
     echo "$code $f" >> "$OUT/exposed-files.txt"
   done < "$TMP/exposed_candidates"
 
-  # has anyone actually fetched them?
-  grep -E '\.(bak|old|orig|save|swp|sql|docker|tgz|zip)(\.gz)?[ ?"]|parms\.php\.|/\.env' "$ACC" \
-    | grep -E '" 200 ' > "$TMP/s3"
-  if [ -s "$TMP/s3" ]; then
-    warn "Successful (200) fetches of backup-style files in the logs: $(wc -l < "$TMP/s3")"
-    head -n 15 "$TMP/s3" | cut -c1-250 | sed 's/^/      /'
-    warn "If any are parms.php.* / .env: treat DB, mail, payment and API credentials in them as COMPROMISED -> rotate."
-  else ok "No 200 responses for backup-style files in the logs since $SINCE"
-       info "(older logs may differ - rerun with --since 2020-01-01 to check full history)"; fi
 fi
+
+# has anyone fetched backup-style files? (runs even if the files have since been moved)
+grep -E '\.(bak|old|orig|save|swp|sql|docker|tgz|zip)(\.gz)?[ ?"]|parms\.php\.|/\.env' "$ACC" \
+  | grep -E '" 200 ' > "$TMP/s3"
+if [ -s "$TMP/s3" ]; then
+  warn "Successful (200) fetches of backup-style files in the logs: $(wc -l < "$TMP/s3")"
+  head -n 15 "$TMP/s3" | cut -c1-250 | sed 's/^/      /'
+  warn "If any are parms.php.* / .env: treat DB, mail, payment and API credentials in them as COMPROMISED -> rotate."
+else ok "No 200 responses for backup-style files in the logs since $SINCE"
+     info "(older logs may differ - rerun with --since 2020-01-01 to check full history)"; fi
 
 # Customer-document leftovers (informational)
 if [ -d /var/www/tmp ]; then
